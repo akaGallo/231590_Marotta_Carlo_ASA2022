@@ -42,14 +42,9 @@ Blinds provide external lighting and take 5 minutes for their opening and closin
 - bedroomBlind
 - bathroomBlind
 
-(Their *consumption* is given by half the opening/closing time)
-
 #### **Car charger**
 
 Car charger is located in the garage and provides a full charge of the car
-
-(Its *consumption* is given by half times 4.8 * batteryRemained given by the following proposition:
-100 : 480 = remainingBattery: chargingTime - a full car charge (100%) takes 8 hours (480 minutes))
 
 #### **Floor heater**
 
@@ -59,8 +54,6 @@ Floor heaters provide heating to the rooms:
 - kitchenHeater
 - bedroomHeater
 - bathroomHeater
-
-(Their *consumption* occurs whenever a room is occupied)
 
 #### **Light**
 
@@ -72,14 +65,9 @@ Lights provide illumination to the rooms
 - bathroomLight
 - garageLight
 
-(Their *consumption* is given by half the W intensity of light in the currently occupied room)
-
 #### **Vacuum cleaner**
 
 Vacuum cleaner provides a Planning Domain Definition Language (PDDL) for cleaning the rooms
-
-(Its *consumption* is given by half times 3 * remainingBattery given by the following proposition:
-100 : 300 = remainingBattery : chargingTime - a full vacuum cleaner charge (100%) takes 5 hours (300 minutes))
 
 #### **Washing machine**
 
@@ -88,8 +76,6 @@ Washing machine is located in the bathroom and provides three types of wash cycl
 - cottons, 1 hour and a half
 - synthetics, 1 hour
 - delicates, half an hour
-
-(Its *consumption* is given by half the cycle time)
 
 ### **Goal and intentions**
 
