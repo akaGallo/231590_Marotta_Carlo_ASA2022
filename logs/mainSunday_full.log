@@ -1,0 +1,3002 @@
+RoomAgent                      Trying to use intention SenseRoomOccupancyIntention to achieve goal {SenseRoomOccupancyGoal#0:{people:["Carlo"]}}
+RoomAgent>SenseRoomOccupancyIntention#0 Intention started
+HouseAgent                     Trying to use intention AlarmIntention to achieve goal {AlarmGoal#1:{hh:10,mm:30}}
+HouseAgent>AlarmIntention#1    Intention started
+HouseAgent                     Trying to use intention SenseWashingMachineIntention to achieve goal {SenseWashingMachineGoal#2:{washingMachine:"bathroom washing machine"}}
+HouseAgent>SenseWashingMachineIntention#2 Intention started
+HouseAgent                     Trying to use intention SenseTurnOnWashingMachineIntention to achieve goal {SenseTurnOnWashingMachineGoal#3:{washingMachine:"bathroom washing machine"}}
+HouseAgent>SenseTurnOnWashingMachineIntention#3 Intention started
+HouseAgent                     Trying to use intention SenseRunningWashingMachineIntention to achieve goal {SenseRunningWashingMachineGoal#4:{washingMachine:"bathroom washing machine"}}
+HouseAgent>SenseRunningWashingMachineIntention#4 Intention started
+HouseAgent                     Trying to use intention SenseTurnOffWashingMachineIntention to achieve goal {SenseTurnOffWashingMachineGoal#5:{washingMachine:"bathroom washing machine"}}
+HouseAgent>SenseTurnOffWashingMachineIntention#5 Intention started
+HouseAgent                     Trying to use intention SenseBlindsIntention to achieve goal {SenseBlindsGoal#6:{blinds:["livingroom blind","kitchen blind","bedroom blind","bathroom blind"]}}
+HouseAgent>SenseBlindsIntention#6 Intention started
+HouseAgent                     Trying to use intention SenseRaiseBlindsIntention to achieve goal {SenseRaiseBlindsGoal#7:{blinds:["livingroom blind","kitchen blind","bedroom blind","bathroom blind"]}}
+HouseAgent>SenseRaiseBlindsIntention#7 Intention started
+HouseAgent                     Trying to use intention SenseLowerBlindsIntention to achieve goal {SenseLowerBlindsGoal#8:{blinds:["livingroom blind","kitchen blind","bedroom blind","bathroom blind"]}}
+HouseAgent>SenseLowerBlindsIntention#8 Intention started
+HouseAgent                     Trying to use intention SenseCarChargerIntention to achieve goal {SenseCarChargerGoal#9:{carCharger:"garageHyundai"}}
+HouseAgent>SenseCarChargerIntention#9 Intention started
+HouseAgent                     Trying to use intention SenseStartCarChargingIntention to achieve goal {SenseStartCarChargingGoal#10:{carCharger:"garageHyundai"}}
+HouseAgent>SenseStartCarChargingIntention#10 Intention started
+HouseAgent                     Trying to use intention SenseFullBatteryChargingIntention to achieve goal {SenseFullBatteryChargingGoal#11:{carCharger:"garageHyundai"}}
+HouseAgent>SenseFullBatteryChargingIntention#11 Intention started
+HouseAgent                     Trying to use intention SenseStopCarChargingIntention to achieve goal {SenseStopCarChargingGoal#12:{carCharger:"garageHyundai"}}
+HouseAgent>SenseStopCarChargingIntention#12 Intention started
+HeaterAgent                    Trying to use intention SenseFloorHeatersIntention to achieve goal {SenseFloorHeatersGoal#13:{heater:["livingroom floor heater","kitchen floor heater","bedroom floor heater","bathroom floor heater"]}}
+HeaterAgent>SenseFloorHeatersIntention#13 Intention started
+HeaterAgent                    Trying to use intention SenseTemperatureIntention to achieve goal {SenseTemperatureGoal#14:{heater:["livingroom floor heater","kitchen floor heater","bedroom floor heater","bathroom floor heater"],high:22,medium:20,low:18}}
+HeaterAgent>SenseTemperatureIntention#14 Intention started
+HeaterAgent                    Trying to use intention SenseHeatOccupiedRoomIntention to achieve goal {SenseHeatOccupiedRoomGoal#15:{heater:["livingroom floor heater","kitchen floor heater","bedroom floor heater","bathroom floor heater"]}}
+HeaterAgent>SenseHeatOccupiedRoomIntention#15 Intention started
+HeaterAgent                    Trying to use intention SenseMediumTemperatureUnoccupiedRoomIntention to achieve goal {SenseMediumTemperatureUnoccupiedRoomGoal#16:{heater:["livingroom floor heater","kitchen floor heater","bedroom floor heater","bathroom floor heater"]}}
+HeaterAgent>SenseMediumTemperatureUnoccupiedRoomIntention#16 Intention started
+HeaterAgent                    Trying to use intention SenseLowTemperatureUnoccupiedRoomIntention to achieve goal {SenseLowTemperatureUnoccupiedRoomGoal#17:{heater:["livingroom floor heater","kitchen floor heater","bedroom floor heater","bathroom floor heater"],unoccupationTime:120}}
+HeaterAgent>SenseLowTemperatureUnoccupiedRoomIntention#17 Intention started
+LightAgent                     Trying to use intention SenseLightsIntention to achieve goal {SenseLightsGoal#18:{lights:["livingroom light","kitchen light","bedroom light","bathroom light","garage light"]}}
+LightAgent>SenseLightsIntention#18 Intention started
+LightAgent                     Trying to use intention SenseIntensityIntention to achieve goal {SenseIntensityGoal#19:{lights:["livingroom light","kitchen light","bedroom light","bathroom light","garage light"],low:25,high:75}}
+LightAgent>SenseIntensityIntention#19 Intention started
+LightAgent                     Trying to use intention SenseAutoLightRoomOccupancyIntention to achieve goal {SenseAutoLightRoomOccupancyGoal#20:{lights:["livingroom light","kitchen light","bedroom light","bathroom light","garage light"]}}
+LightAgent>SenseAutoLightRoomOccupancyIntention#20 Intention started
+LightAgent                     Trying to use intention SenseSetIntensityManuallyIntention to achieve goal {SenseSetIntensityManuallyGoal#21:{light:"bedroom light",hh:1,mm:57,intensityToAdd:-60}}
+LightAgent>SenseSetIntensityManuallyIntention#21 Intention started
+LightAgent                     Trying to use intention SenseSetIntensityManuallyIntention to achieve goal {SenseSetIntensityManuallyGoal#22:{light:"bedroom light",hh:10,mm:31,intensityToAdd:50}}
+LightAgent>SenseSetIntensityManuallyIntention#22 Intention started
+LightAgent                     Trying to use intention SenseSetIntensityManuallyIntention to achieve goal {SenseSetIntensityManuallyGoal#23:{light:"garage light",hh:11,mm:51,intensityToAdd:50}}
+LightAgent>SenseSetIntensityManuallyIntention#23 Intention started
+LightAgent                     Trying to use intention SenseSetIntensityManuallyIntention to achieve goal {SenseSetIntensityManuallyGoal#24:{light:"bedroom light",hh:22,mm:55,intensityToAdd:-100}}
+LightAgent>SenseSetIntensityManuallyIntention#24 Intention started
+VacuumCleanerAgent             Trying to use intention SenseBatteryIntention to achieve goal {SenseBatteryGoal#25:{vacuumCleaner:"DYSON"}}
+VacuumCleanerAgent>SenseBatteryIntention#25 Intention started
+VacuumCleanerAgent             Trying to use intention SenseVacuumCleanerPositionIntention to achieve goal {SenseVacuumCleanerPositionGoal#26:{vacuumCleaner:"DYSON"}}
+VacuumCleanerAgent>SenseVacuumCleanerPositionIntention#26 Intention started
+VacuumCleanerAgent             Trying to use intention SenseCleanRoomIntention to achieve goal {SenseCleanRoomGoal#27:{rooms:[{name:"bathroom",doorTo:["kitchen","bedroom"],cleaned:true},{name:"bedroom",doorTo:["livingroom","bathroom"],cleaned:false},{name:"kitchen",doorTo:["livingroom","bathroom"],cleaned:false},{name:"livingroom",doorTo:["kitchen","bedroom","garage"],cleaned:true}]}}
+VacuumCleanerAgent>SenseCleanRoomIntention#27 Intention started
+VacuumCleanerAgent             Trying to use intention SenseRetryFourTimesIntention to achieve goal {SenseRetryGoal#29:{goal:{PddlGoal#28:{goal:["cleaned livingroom","cleaned kitchen","cleaned bedroom","cleaned bathroom","mediumCharge"]}},hh:16,mm:0}}
+VacuumCleanerAgent>SenseRetryFourTimesIntention#28 Intention started
+VacuumCleanerAgent             Belief changed: base livingroom
+VacuumCleanerAgent             Belief changed: door livingroom kitchen
+VacuumCleanerAgent             Belief changed: door livingroom bedroom
+VacuumCleanerAgent             Belief changed: door kitchen livingroom
+VacuumCleanerAgent             Belief changed: door kitchen bathroom
+VacuumCleanerAgent             Belief changed: door bedroom livingroom
+VacuumCleanerAgent             Belief changed: door bedroom bathroom
+VacuumCleanerAgent             Belief changed: door bathroom kitchen
+VacuumCleanerAgent             Belief changed: door bathroom bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is outside
+HouseAgent>SenseWashingMachineIntention#2 Sensor: bathroom washing machine is off
+HouseAgent>SenseBlindsIntention#6 Sensor: livingroom blind is close
+HouseAgent>SenseBlindsIntention#6 Sensor: kitchen blind is close
+HouseAgent>SenseBlindsIntention#6 Sensor: bedroom blind is close
+HouseAgent>SenseBlindsIntention#6 Sensor: bathroom blind is close
+HouseAgent>SenseCarChargerIntention#9 Sensor: garage e-car charger is off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: kitchen floor heater is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bathroom floor heater is switched off
+HeaterAgent>SenseTemperatureIntention#14 Sensor: livingroom temperature is high
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bedroom temperature is medium
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched off
+LightAgent>SenseLightsIntention#18 Sensor: kitchen light is switched off
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched off
+LightAgent>SenseLightsIntention#18 Sensor: bathroom light is switched off
+LightAgent>SenseLightsIntention#18 Sensor: garage light is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is low
+LightAgent>SenseIntensityIntention#19 Sensor: kitchen light intensity is low
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is low
+LightAgent>SenseIntensityIntention#19 Sensor: bathroom light intensity is low
+LightAgent>SenseIntensityIntention#19 Sensor: garage light intensity is low
+RoomAgent                      Belief changed: not Carlo is in livingroom
+RoomAgent                      Belief changed: not livingroom is occupied
+RoomAgent                      Belief changed: not Carlo is in kitchen
+RoomAgent                      Belief changed: not kitchen is occupied
+RoomAgent                      Belief changed: not Carlo is in bedroom
+RoomAgent                      Belief changed: not bedroom is occupied
+RoomAgent                      Belief changed: not Carlo is in bathroom
+RoomAgent                      Belief changed: not bathroom is occupied
+RoomAgent                      Belief changed: not Carlo is in garage
+RoomAgent                      Belief changed: not garage is occupied
+RoomAgent                      Belief changed: not the house is occupied
+HouseAgent                     Belief changed: not bathroom washing machine is on
+HouseAgent                     Belief changed: bathroom washing machine is off
+HouseAgent                     Belief changed: not livingroom blind is open
+HouseAgent                     Belief changed: livingroom blind is close
+HouseAgent                     Belief changed: not kitchen blind is open
+HouseAgent                     Belief changed: kitchen blind is close
+HouseAgent                     Belief changed: not bedroom blind is open
+HouseAgent                     Belief changed: bedroom blind is close
+HouseAgent                     Belief changed: not bathroom blind is open
+HouseAgent                     Belief changed: bathroom blind is close
+HouseAgent                     Belief changed: not garage e-car charger is on
+HouseAgent                     Belief changed: garage e-car charger is off
+HeaterAgent                    Belief changed: not livingroom floor heater is on
+HeaterAgent                    Belief changed: livingroom floor heater is off
+HeaterAgent                    Belief changed: not kitchen floor heater is on
+HeaterAgent                    Belief changed: kitchen floor heater is off
+HeaterAgent                    Belief changed: not bedroom floor heater is on
+HeaterAgent                    Belief changed: bedroom floor heater is off
+HeaterAgent                    Belief changed: not bathroom floor heater is on
+HeaterAgent                    Belief changed: bathroom floor heater is off
+HeaterAgent                    Belief changed: not livingroom low temperature
+HeaterAgent                    Belief changed: not livingroom medium temperature
+HeaterAgent                    Belief changed: livingroom high temperature
+HeaterAgent                    Belief changed: not bedroom low temperature
+HeaterAgent                    Belief changed: bedroom medium temperature
+HeaterAgent                    Belief changed: not bedroom high temperature
+LightAgent                     Belief changed: not livingroom light is on
+LightAgent                     Belief changed: livingroom light is off
+LightAgent                     Belief changed: not livingroom light is on manually
+LightAgent                     Belief changed: not livingroom light is off manually
+LightAgent                     Belief changed: not kitchen light is on
+LightAgent                     Belief changed: kitchen light is off
+LightAgent                     Belief changed: not kitchen light is on manually
+LightAgent                     Belief changed: not kitchen light is off manually
+LightAgent                     Belief changed: not bedroom light is on
+LightAgent                     Belief changed: bedroom light is off
+LightAgent                     Belief changed: not bedroom light is on manually
+LightAgent                     Belief changed: not bedroom light is off manually
+LightAgent                     Belief changed: not bathroom light is on
+LightAgent                     Belief changed: bathroom light is off
+LightAgent                     Belief changed: not bathroom light is on manually
+LightAgent                     Belief changed: not bathroom light is off manually
+LightAgent                     Belief changed: not garage light is on
+LightAgent                     Belief changed: garage light is off
+LightAgent                     Belief changed: not garage light is on manually
+LightAgent                     Belief changed: not garage light is off manually
+LightAgent                     Belief changed: livingroom low light
+LightAgent                     Belief changed: not livingroom medium light
+LightAgent                     Belief changed: not livingroom high light
+LightAgent                     Belief changed: kitchen low light
+LightAgent                     Belief changed: not kitchen medium light
+LightAgent                     Belief changed: not kitchen high light
+LightAgent                     Belief changed: bedroom low light
+LightAgent                     Belief changed: not bedroom medium light
+LightAgent                     Belief changed: not bedroom high light
+LightAgent                     Belief changed: bathroom low light
+LightAgent                     Belief changed: not bathroom medium light
+LightAgent                     Belief changed: not bathroom high light
+LightAgent                     Belief changed: garage low light
+LightAgent                     Belief changed: not garage medium light
+LightAgent                     Belief changed: not garage high light
+VacuumCleanerAgent             Belief changed: highCharge
+VacuumCleanerAgent             Belief changed: not mediumCharge
+VacuumCleanerAgent             Belief changed: not lowCharge
+VacuumCleanerAgent             Belief changed: inRoom livingroom
+HeaterAgent                    Belief changed: not Carlo is in livingroom
+LightAgent                     Belief changed: not Carlo is in livingroom
+HeaterAgent                    Belief changed: not livingroom is occupied
+LightAgent                     Belief changed: not livingroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in kitchen
+LightAgent                     Belief changed: not Carlo is in kitchen
+HeaterAgent                    Belief changed: not kitchen is occupied
+LightAgent                     Belief changed: not kitchen is occupied
+HeaterAgent                    Belief changed: not Carlo is in bedroom
+LightAgent                     Belief changed: not Carlo is in bedroom
+HeaterAgent                    Belief changed: not bedroom is occupied
+LightAgent                     Belief changed: not bedroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in bathroom
+LightAgent                     Belief changed: not Carlo is in bathroom
+HeaterAgent                    Belief changed: not bathroom is occupied
+LightAgent                     Belief changed: not bathroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in garage
+LightAgent                     Belief changed: not Carlo is in garage
+HeaterAgent                    Belief changed: not garage is occupied
+LightAgent                     Belief changed: not garage is occupied
+HeaterAgent                    Belief changed: not the house is occupied
+LightAgent                     Belief changed: not the house is occupied
+VacuumCleanerAgent             Belief changed: cleaned bathroom
+VacuumCleanerAgent             Belief changed: not cleaned bedroom
+VacuumCleanerAgent             Belief changed: not cleaned kitchen
+VacuumCleanerAgent             Belief changed: cleaned livingroom
+0:00:01
+0:00:02
+0:00:03
+0:00:04
+0:00:05
+0:00:06
+0:00:07
+0:00:08
+0:00:09
+0:00:10
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bathroom temperature is medium
+HeaterAgent                    Belief changed: not bathroom low temperature
+HeaterAgent                    Belief changed: bathroom medium temperature
+HeaterAgent                    Belief changed: not bathroom high temperature
+0:00:11
+bathroom temperature is 20.0
+0:00:12
+0:00:13
+0:00:14
+0:00:15
+0:00:16
+0:00:17
+0:00:18
+0:00:19
+0:00:20
+HeaterAgent>SenseTemperatureIntention#14 Sensor: livingroom temperature is medium
+HeaterAgent                    Belief changed: livingroom medium temperature
+HeaterAgent                    Belief changed: not livingroom high temperature
+0:00:21
+livingroom temperature is 20.0
+0:00:22
+0:00:23
+0:00:24
+0:00:25
+0:00:26
+0:00:27
+0:00:28
+0:00:29
+0:00:30
+0:00:31
+0:00:32
+0:00:33
+0:00:34
+0:00:35
+0:00:36
+0:00:37
+0:00:38
+0:00:39
+0:00:40
+0:00:41
+0:00:42
+0:00:43
+0:00:44
+0:00:45
+0:00:46
+0:00:47
+0:00:48
+0:00:49
+0:00:50
+0:00:51
+0:00:52
+0:00:53
+0:00:54
+0:00:55
+0:00:56
+0:00:57
+0:00:58
+0:00:59
+0:01:00
+0:01:01
+0:01:02
+0:01:03
+0:01:04
+0:01:05
+0:01:06
+0:01:07
+0:01:08
+0:01:09
+0:01:10
+0:01:11
+0:01:12
+0:01:13
+0:01:14
+0:01:15
+0:01:16
+0:01:17
+0:01:18
+0:01:19
+0:01:20
+0:01:21
+0:01:22
+0:01:23
+0:01:24
+0:01:25
+0:01:26
+0:01:27
+0:01:28
+0:01:29
+0:01:30
+Carlo moved from outside to garage
+Hyundai e-car starts charging
+garage e-car is charging
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in garage
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+HouseAgent>SenseCarChargerIntention#9 Sensor: garage e-car charger is on
+RoomAgent                      Belief changed: Carlo is in garage
+RoomAgent                      Belief changed: garage is occupied
+RoomAgent                      Belief changed: the house is occupied
+HouseAgent                     Belief changed: garage e-car charger is on
+HouseAgent                     Belief changed: not garage e-car charger is off
+HeaterAgent                    Belief changed: Carlo is in garage
+LightAgent                     Belief changed: Carlo is in garage
+HeaterAgent                    Belief changed: garage is occupied
+LightAgent                     Belief changed: garage is occupied
+HeaterAgent                    Belief changed: the house is occupied
+LightAgent                     Belief changed: the house is occupied
+HouseAgent>SenseStartCarChargingIntention#10 Intention success
+HouseAgent                     Succesfully used intention SenseStartCarChargingIntention to achieve goal {SenseStartCarChargingGoal#10:{carCharger:"garageHyundai"}}
+0:01:31
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#30:{light:"garage light"}}
+LightAgent>SenseAutoTurnOnLightIntention#29 Intention started
+garage light is switched on with 60W
+LightAgent>SenseIntensityIntention#19 Sensor: garage light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: garage light is switched on
+LightAgent                     Belief changed: not garage low light
+LightAgent                     Belief changed: garage medium light
+LightAgent                     Belief changed: garage light is on
+LightAgent                     Belief changed: not garage light is off
+LightAgent>SenseAutoTurnOnLightIntention#29 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#30:{light:"garage light"}}
+0:01:32
+0:01:33
+0:01:34
+0:01:35
+Carlo moved from garage to livingroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in livingroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: Carlo is in livingroom
+RoomAgent                      Belief changed: livingroom is occupied
+RoomAgent                      Belief changed: not Carlo is in garage
+RoomAgent                      Belief changed: not garage is occupied
+HeaterAgent                    Belief changed: Carlo is in livingroom
+LightAgent                     Belief changed: Carlo is in livingroom
+HeaterAgent                    Belief changed: livingroom is occupied
+LightAgent                     Belief changed: livingroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in garage
+LightAgent                     Belief changed: not Carlo is in garage
+HeaterAgent                    Belief changed: not garage is occupied
+LightAgent                     Belief changed: not garage is occupied
+0:01:36
+livingroom floor heater is on
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#31:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#30 Intention started
+livingroom light is switched on with 60W
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#32:{light:"garage light"}}
+LightAgent>SenseAutoTurnOffLightIntention#31 Intention started
+garage light is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: garage light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: garage light is switched off
+HeaterAgent                    Belief changed: livingroom floor heater is on
+HeaterAgent                    Belief changed: not livingroom floor heater is off
+LightAgent                     Belief changed: not livingroom low light
+LightAgent                     Belief changed: livingroom medium light
+LightAgent                     Belief changed: livingroom light is on
+LightAgent                     Belief changed: not livingroom light is off
+LightAgent                     Belief changed: garage low light
+LightAgent                     Belief changed: not garage medium light
+LightAgent                     Belief changed: not garage light is on
+LightAgent                     Belief changed: garage light is off
+LightAgent>SenseAutoTurnOnLightIntention#30 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#31:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#31 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#32:{light:"garage light"}}
+0:01:37
+0:01:38
+0:01:39
+0:01:40
+Carlo moved from livingroom to bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: not Carlo is in livingroom
+RoomAgent                      Belief changed: not livingroom is occupied
+RoomAgent                      Belief changed: Carlo is in bedroom
+RoomAgent                      Belief changed: bedroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in livingroom
+LightAgent                     Belief changed: not Carlo is in livingroom
+HeaterAgent                    Belief changed: not livingroom is occupied
+LightAgent                     Belief changed: not livingroom is occupied
+HeaterAgent                    Belief changed: Carlo is in bedroom
+LightAgent                     Belief changed: Carlo is in bedroom
+HeaterAgent                    Belief changed: bedroom is occupied
+LightAgent                     Belief changed: bedroom is occupied
+0:01:41
+livingroom temperature is 20.4
+livingroom floor heater is off
+bedroom floor heater is on
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#33:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#32 Intention started
+livingroom light is switched off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#34:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#33 Intention started
+bedroom light is switched on with 60W
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched on
+HeaterAgent                    Belief changed: not livingroom floor heater is on
+HeaterAgent                    Belief changed: livingroom floor heater is off
+HeaterAgent                    Belief changed: bedroom floor heater is on
+HeaterAgent                    Belief changed: not bedroom floor heater is off
+LightAgent                     Belief changed: livingroom low light
+LightAgent                     Belief changed: not livingroom medium light
+LightAgent                     Belief changed: not livingroom light is on
+LightAgent                     Belief changed: livingroom light is off
+LightAgent                     Belief changed: not bedroom low light
+LightAgent                     Belief changed: bedroom medium light
+LightAgent                     Belief changed: bedroom light is on
+LightAgent                     Belief changed: not bedroom light is off
+LightAgent>SenseAutoTurnOffLightIntention#32 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#33:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#33 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#34:{light:"bedroom light"}}
+0:01:42
+0:01:43
+0:01:44
+0:01:45
+Carlo moved from bedroom to bathroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in bathroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: not Carlo is in bedroom
+RoomAgent                      Belief changed: not bedroom is occupied
+RoomAgent                      Belief changed: Carlo is in bathroom
+RoomAgent                      Belief changed: bathroom is occupied
+HeaterAgent>SenseTemperatureIntention#14 Sensor: livingroom temperature is medium
+HeaterAgent                    Belief changed: not Carlo is in bedroom
+LightAgent                     Belief changed: not Carlo is in bedroom
+HeaterAgent                    Belief changed: not bedroom is occupied
+LightAgent                     Belief changed: not bedroom is occupied
+HeaterAgent                    Belief changed: Carlo is in bathroom
+LightAgent                     Belief changed: Carlo is in bathroom
+HeaterAgent                    Belief changed: bathroom is occupied
+LightAgent                     Belief changed: bathroom is occupied
+0:01:46
+bedroom temperature is 20.4
+bedroom floor heater is off
+bathroom floor heater is on
+livingroom temperature is 20.0
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#35:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#34 Intention started
+bedroom light is switched off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#36:{light:"bathroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#35 Intention started
+bathroom light is switched on with 60W
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bathroom floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: bathroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: bathroom light is switched on
+HeaterAgent                    Belief changed: not bedroom floor heater is on
+HeaterAgent                    Belief changed: bedroom floor heater is off
+HeaterAgent                    Belief changed: bathroom floor heater is on
+HeaterAgent                    Belief changed: not bathroom floor heater is off
+LightAgent                     Belief changed: bedroom low light
+LightAgent                     Belief changed: not bedroom medium light
+LightAgent                     Belief changed: not bedroom light is on
+LightAgent                     Belief changed: bedroom light is off
+LightAgent                     Belief changed: not bathroom low light
+LightAgent                     Belief changed: bathroom medium light
+LightAgent                     Belief changed: bathroom light is on
+LightAgent                     Belief changed: not bathroom light is off
+LightAgent>SenseAutoTurnOffLightIntention#34 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#35:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#35 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#36:{light:"bathroom light"}}
+0:01:47
+0:01:48
+0:01:49
+0:01:50
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bedroom temperature is medium
+0:01:51
+bedroom temperature is 20.0
+0:01:52
+0:01:53
+0:01:54
+0:01:55
+Carlo moved from bathroom to bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: Carlo is in bedroom
+RoomAgent                      Belief changed: bedroom is occupied
+RoomAgent                      Belief changed: not Carlo is in bathroom
+RoomAgent                      Belief changed: not bathroom is occupied
+HeaterAgent                    Belief changed: Carlo is in bedroom
+LightAgent                     Belief changed: Carlo is in bedroom
+HeaterAgent                    Belief changed: bedroom is occupied
+LightAgent                     Belief changed: bedroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in bathroom
+LightAgent                     Belief changed: not Carlo is in bathroom
+HeaterAgent                    Belief changed: not bathroom is occupied
+LightAgent                     Belief changed: not bathroom is occupied
+0:01:56
+bedroom floor heater is on
+bathroom temperature is 20.9
+bathroom floor heater is off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#37:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#36 Intention started
+bedroom light is switched on with 60W
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#38:{light:"bathroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#37 Intention started
+bathroom light is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched on
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bathroom floor heater is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: bathroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: bathroom light is switched off
+HeaterAgent                    Belief changed: bedroom floor heater is on
+HeaterAgent                    Belief changed: not bedroom floor heater is off
+HeaterAgent                    Belief changed: not bathroom floor heater is on
+HeaterAgent                    Belief changed: bathroom floor heater is off
+LightAgent                     Belief changed: not bedroom low light
+LightAgent                     Belief changed: bedroom medium light
+LightAgent                     Belief changed: bedroom light is on
+LightAgent                     Belief changed: not bedroom light is off
+LightAgent                     Belief changed: bathroom low light
+LightAgent                     Belief changed: not bathroom medium light
+LightAgent                     Belief changed: not bathroom light is on
+LightAgent                     Belief changed: bathroom light is off
+LightAgent>SenseAutoTurnOnLightIntention#36 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#37:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#37 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#38:{light:"bathroom light"}}
+0:01:57
+bedroom light is switched off manually
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched off manually
+LightAgent                     Belief changed: bedroom low light
+LightAgent                     Belief changed: not bedroom medium light
+LightAgent                     Belief changed: not bedroom light is on
+LightAgent                     Belief changed: bedroom light is off manually
+LightAgent>SenseSetIntensityManuallyIntention#21 Intention success
+LightAgent                     Succesfully used intention SenseSetIntensityManuallyIntention to achieve goal {SenseSetIntensityManuallyGoal#21:{light:"bedroom light",hh:1,mm:57,intensityToAdd:-60}}
+0:01:58
+0:01:59
+0:02:00
+0:02:01
+0:02:02
+0:02:03
+0:02:04
+0:02:05
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bathroom temperature is medium
+0:02:06
+bathroom temperature is 20.0
+0:02:07
+0:02:08
+0:02:09
+0:02:10
+HeaterAgent>SenseTemperatureIntention#14 Sensor: kitchen temperature is low
+HeaterAgent                    Belief changed: kitchen low temperature
+HeaterAgent                    Belief changed: not kitchen medium temperature
+HeaterAgent                    Belief changed: not kitchen high temperature
+0:02:11
+kitchen temperature is 18.0
+0:02:12
+0:02:13
+0:02:14
+0:02:15
+0:02:16
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bedroom temperature is high
+HeaterAgent                    Belief changed: not bedroom medium temperature
+HeaterAgent                    Belief changed: bedroom high temperature
+0:02:17
+bedroom temperature is 22.0
+bedroom floor heater is off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched off
+HeaterAgent                    Belief changed: not bedroom floor heater is on
+HeaterAgent                    Belief changed: bedroom floor heater is off
+0:02:18
+0:02:19
+0:02:20
+0:02:21
+0:02:22
+0:02:23
+0:02:24
+0:02:25
+0:02:26
+0:02:27
+0:02:28
+0:02:29
+0:02:30
+0:02:31
+0:02:32
+0:02:33
+0:02:34
+0:02:35
+0:02:36
+0:02:37
+0:02:38
+0:02:39
+0:02:40
+0:02:41
+0:02:42
+0:02:43
+0:02:44
+0:02:45
+0:02:46
+0:02:47
+0:02:48
+0:02:49
+0:02:50
+0:02:51
+0:02:52
+0:02:53
+0:02:54
+0:02:55
+0:02:56
+0:02:57
+0:02:58
+0:02:59
+0:03:00
+0:03:01
+0:03:02
+0:03:03
+0:03:04
+0:03:05
+0:03:06
+0:03:07
+0:03:08
+0:03:09
+0:03:10
+0:03:11
+0:03:12
+0:03:13
+0:03:14
+0:03:15
+0:03:16
+0:03:17
+0:03:18
+0:03:19
+0:03:20
+0:03:21
+0:03:22
+0:03:23
+0:03:24
+0:03:25
+0:03:26
+0:03:27
+0:03:28
+0:03:29
+0:03:30
+0:03:31
+0:03:32
+0:03:33
+0:03:34
+0:03:35
+0:03:36
+0:03:37
+0:03:38
+0:03:39
+0:03:40
+0:03:41
+0:03:42
+0:03:43
+0:03:44
+0:03:45
+0:03:46
+0:03:47
+0:03:48
+0:03:49
+0:03:50
+0:03:51
+0:03:52
+0:03:53
+0:03:54
+0:03:55
+0:03:56
+0:03:57
+0:03:58
+0:03:59
+0:04:00
+0:04:01
+HeaterAgent>SenseTemperatureIntention#14 Sensor: livingroom temperature is low
+HeaterAgent                    Belief changed: livingroom low temperature
+HeaterAgent                    Belief changed: not livingroom medium temperature
+0:04:02
+livingroom temperature is 18.0
+0:04:03
+0:04:04
+0:04:05
+0:04:06
+0:04:07
+0:04:08
+0:04:09
+0:04:10
+0:04:11
+0:04:12
+0:04:13
+0:04:14
+0:04:15
+0:04:16
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bathroom temperature is low
+HeaterAgent                    Belief changed: bathroom low temperature
+HeaterAgent                    Belief changed: not bathroom medium temperature
+0:04:17
+bathroom temperature is 18.0
+0:04:18
+0:04:19
+0:04:20
+0:04:21
+0:04:22
+0:04:23
+0:04:24
+0:04:25
+0:04:26
+0:04:27
+0:04:28
+0:04:29
+0:04:30
+0:04:31
+0:04:32
+0:04:33
+0:04:34
+0:04:35
+0:04:36
+0:04:37
+0:04:38
+0:04:39
+0:04:40
+0:04:41
+0:04:42
+0:04:43
+0:04:44
+0:04:45
+0:04:46
+0:04:47
+0:04:48
+0:04:49
+0:04:50
+0:04:51
+0:04:52
+0:04:53
+0:04:54
+0:04:55
+0:04:56
+0:04:57
+0:04:58
+0:04:59
+0:05:00
+0:05:01
+0:05:02
+0:05:03
+0:05:04
+0:05:05
+0:05:06
+0:05:07
+0:05:08
+0:05:09
+0:05:10
+0:05:11
+0:05:12
+0:05:13
+0:05:14
+0:05:15
+0:05:16
+0:05:17
+0:05:18
+0:05:19
+0:05:20
+0:05:21
+0:05:22
+0:05:23
+0:05:24
+0:05:25
+0:05:26
+0:05:27
+0:05:28
+0:05:29
+0:05:30
+0:05:31
+0:05:32
+0:05:33
+0:05:34
+0:05:35
+0:05:36
+0:05:37
+0:05:38
+0:05:39
+0:05:40
+0:05:41
+0:05:42
+0:05:43
+0:05:44
+0:05:45
+0:05:46
+0:05:47
+0:05:48
+0:05:49
+0:05:50
+0:05:51
+0:05:52
+0:05:53
+0:05:54
+0:05:55
+0:05:56
+0:05:57
+0:05:58
+0:05:59
+0:06:00
+0:06:01
+0:06:02
+0:06:03
+0:06:04
+0:06:05
+0:06:06
+0:06:07
+0:06:08
+0:06:09
+0:06:10
+0:06:11
+0:06:12
+0:06:13
+0:06:14
+0:06:15
+0:06:16
+0:06:17
+0:06:18
+0:06:19
+0:06:20
+0:06:21
+0:06:22
+0:06:23
+0:06:24
+0:06:25
+0:06:26
+0:06:27
+0:06:28
+0:06:29
+0:06:30
+0:06:31
+0:06:32
+0:06:33
+0:06:34
+0:06:35
+0:06:36
+0:06:37
+0:06:38
+0:06:39
+0:06:40
+0:06:41
+0:06:42
+0:06:43
+0:06:44
+0:06:45
+0:06:46
+0:06:47
+0:06:48
+0:06:49
+0:06:50
+0:06:51
+0:06:52
+0:06:53
+0:06:54
+0:06:55
+0:06:56
+0:06:57
+0:06:58
+0:06:59
+0:07:00
+0:07:01
+0:07:02
+0:07:03
+0:07:04
+0:07:05
+0:07:06
+0:07:07
+0:07:08
+0:07:09
+0:07:10
+0:07:11
+0:07:12
+0:07:13
+0:07:14
+0:07:15
+0:07:16
+0:07:17
+0:07:18
+0:07:19
+0:07:20
+0:07:21
+0:07:22
+0:07:23
+0:07:24
+0:07:25
+0:07:26
+0:07:27
+0:07:28
+0:07:29
+0:07:30
+0:07:31
+0:07:32
+0:07:33
+0:07:34
+0:07:35
+0:07:36
+0:07:37
+0:07:38
+0:07:39
+0:07:40
+0:07:41
+0:07:42
+0:07:43
+0:07:44
+0:07:45
+0:07:46
+0:07:47
+0:07:48
+0:07:49
+0:07:50
+0:07:51
+0:07:52
+0:07:53
+0:07:54
+0:07:55
+0:07:56
+0:07:57
+0:07:58
+0:07:59
+0:08:00
+0:08:01
+0:08:02
+0:08:03
+0:08:04
+0:08:05
+0:08:06
+0:08:07
+0:08:08
+0:08:09
+0:08:10
+0:08:11
+0:08:12
+0:08:13
+0:08:14
+0:08:15
+0:08:16
+0:08:17
+0:08:18
+0:08:19
+0:08:20
+0:08:21
+0:08:22
+0:08:23
+0:08:24
+0:08:25
+0:08:26
+0:08:27
+0:08:28
+0:08:29
+0:08:30
+0:08:31
+0:08:32
+0:08:33
+0:08:34
+0:08:35
+0:08:36
+0:08:37
+0:08:38
+0:08:39
+0:08:40
+0:08:41
+0:08:42
+Hyundai e-car battery is full
+HouseAgent>SenseFullBatteryChargingIntention#11 Intention success
+HouseAgent                     Succesfully used intention SenseFullBatteryChargingIntention to achieve goal {SenseFullBatteryChargingGoal#11:{carCharger:"garageHyundai"}}
+0:08:43
+garage e-car charging is complete
+Hyundai e-car stops charging
+HouseAgent>SenseCarChargerIntention#9 Sensor: garage e-car charger is off
+HouseAgent                     Belief changed: not garage e-car charger is on
+HouseAgent                     Belief changed: garage e-car charger is off
+HouseAgent>SenseStopCarChargingIntention#12 Intention success
+HouseAgent                     Succesfully used intention SenseStopCarChargingIntention to achieve goal {SenseStopCarChargingGoal#12:{carCharger:"garageHyundai"}}
+0:08:44
+0:08:45
+0:08:46
+0:08:47
+0:08:48
+0:08:49
+0:08:50
+0:08:51
+0:08:52
+0:08:53
+0:08:54
+0:08:55
+0:08:56
+0:08:57
+0:08:58
+0:08:59
+0:09:00
+0:09:01
+0:09:02
+0:09:03
+0:09:04
+0:09:05
+0:09:06
+0:09:07
+0:09:08
+0:09:09
+0:09:10
+0:09:11
+0:09:12
+0:09:13
+0:09:14
+0:09:15
+0:09:16
+0:09:17
+0:09:18
+0:09:19
+0:09:20
+0:09:21
+0:09:22
+0:09:23
+0:09:24
+0:09:25
+0:09:26
+0:09:27
+0:09:28
+0:09:29
+0:09:30
+0:09:31
+0:09:32
+0:09:33
+0:09:34
+0:09:35
+0:09:36
+0:09:37
+0:09:38
+0:09:39
+0:09:40
+0:09:41
+0:09:42
+0:09:43
+0:09:44
+0:09:45
+0:09:46
+0:09:47
+0:09:48
+0:09:49
+0:09:50
+0:09:51
+0:09:52
+0:09:53
+0:09:54
+0:09:55
+0:09:56
+0:09:57
+0:09:58
+0:09:59
+0:10:00
+0:10:01
+0:10:02
+0:10:03
+0:10:04
+0:10:05
+0:10:06
+0:10:07
+0:10:08
+0:10:09
+0:10:10
+0:10:11
+0:10:12
+0:10:13
+0:10:14
+0:10:15
+0:10:16
+0:10:17
+0:10:18
+0:10:19
+0:10:20
+0:10:21
+0:10:22
+0:10:23
+0:10:24
+0:10:25
+0:10:26
+0:10:27
+0:10:28
+0:10:29
+0:10:30
+HouseAgent>AlarmIntention#1    ALARM, WAKE UP! It's 10:30!
+HouseAgent>AlarmIntention#1    Intention success
+HouseAgent                     Succesfully used intention AlarmIntention to achieve goal {AlarmGoal#1:{hh:10,mm:30}}
+0:10:31
+bedroom light is increased manually reaching 50W
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched on manually
+LightAgent                     Belief changed: not bedroom low light
+LightAgent                     Belief changed: bedroom medium light
+LightAgent                     Belief changed: bedroom light is on manually
+LightAgent                     Belief changed: not bedroom light is off manually
+LightAgent>SenseSetIntensityManuallyIntention#22 Intention success
+LightAgent                     Succesfully used intention SenseSetIntensityManuallyIntention to achieve goal {SenseSetIntensityManuallyGoal#22:{light:"bedroom light",hh:10,mm:31,intensityToAdd:50}}
+0:10:32
+0:10:33
+0:10:34
+0:10:35
+bedroom blind is open
+Carlo moved from bedroom to bathroom
+HouseAgent>SenseBlindsIntention#6 Sensor: bedroom blind is open
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in bathroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+HouseAgent                     Belief changed: bedroom blind is open
+HouseAgent                     Belief changed: not bedroom blind is close
+RoomAgent                      Belief changed: not Carlo is in bedroom
+RoomAgent                      Belief changed: not bedroom is occupied
+RoomAgent                      Belief changed: Carlo is in bathroom
+RoomAgent                      Belief changed: bathroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in bedroom
+LightAgent                     Belief changed: not Carlo is in bedroom
+HeaterAgent                    Belief changed: not bedroom is occupied
+LightAgent                     Belief changed: not bedroom is occupied
+HeaterAgent                    Belief changed: Carlo is in bathroom
+LightAgent                     Belief changed: Carlo is in bathroom
+HeaterAgent                    Belief changed: bathroom is occupied
+LightAgent                     Belief changed: bathroom is occupied
+0:10:36
+bathroom floor heater is on
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#39:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#38 Intention started
+bedroom light is switched off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#40:{light:"bathroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#39 Intention started
+bathroom light is switched on with 60W
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bathroom floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: bathroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: bathroom light is switched on
+HeaterAgent                    Belief changed: bathroom floor heater is on
+HeaterAgent                    Belief changed: not bathroom floor heater is off
+LightAgent                     Belief changed: bedroom low light
+LightAgent                     Belief changed: not bedroom medium light
+LightAgent                     Belief changed: bedroom light is off
+LightAgent                     Belief changed: not bedroom light is on manually
+LightAgent                     Belief changed: not bathroom low light
+LightAgent                     Belief changed: bathroom medium light
+LightAgent                     Belief changed: bathroom light is on
+LightAgent                     Belief changed: not bathroom light is off
+LightAgent>SenseAutoTurnOffLightIntention#38 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#39:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#39 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#40:{light:"bathroom light"}}
+0:10:37
+0:10:38
+0:10:39
+0:10:40
+bathroom blind is open
+bedroom blind is completely raised
+HouseAgent>SenseBlindsIntention#6 Sensor: bathroom blind is open
+HouseAgent                     Belief changed: bathroom blind is open
+HouseAgent                     Belief changed: not bathroom blind is close
+0:10:41
+0:10:42
+0:10:43
+0:10:44
+0:10:45
+bathroom blind is completely raised
+0:10:46
+0:10:47
+0:10:48
+0:10:49
+0:10:50
+0:10:51
+0:10:52
+0:10:53
+0:10:54
+0:10:55
+Carlo moved from bathroom to kitchen
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in kitchen
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: Carlo is in kitchen
+RoomAgent                      Belief changed: kitchen is occupied
+RoomAgent                      Belief changed: not Carlo is in bathroom
+RoomAgent                      Belief changed: not bathroom is occupied
+HeaterAgent                    Belief changed: Carlo is in kitchen
+LightAgent                     Belief changed: Carlo is in kitchen
+HeaterAgent                    Belief changed: kitchen is occupied
+LightAgent                     Belief changed: kitchen is occupied
+HeaterAgent                    Belief changed: not Carlo is in bathroom
+LightAgent                     Belief changed: not Carlo is in bathroom
+HeaterAgent                    Belief changed: not bathroom is occupied
+LightAgent                     Belief changed: not bathroom is occupied
+0:10:56
+kitchen blind is open
+kitchen floor heater is on
+bathroom temperature is 19.9
+bathroom floor heater is off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#41:{light:"kitchen light"}}
+LightAgent>SenseAutoTurnOnLightIntention#40 Intention started
+kitchen light is switched on with 60W
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#42:{light:"bathroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#41 Intention started
+bathroom light is switched off
+HouseAgent>SenseBlindsIntention#6 Sensor: kitchen blind is open
+HouseAgent                     Belief changed: kitchen blind is open
+HouseAgent                     Belief changed: not kitchen blind is close
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: kitchen floor heater is switched on
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bathroom floor heater is switched off
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bedroom temperature is medium
+LightAgent>SenseIntensityIntention#19 Sensor: kitchen light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: kitchen light is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: bathroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: bathroom light is switched off
+HeaterAgent                    Belief changed: kitchen floor heater is on
+HeaterAgent                    Belief changed: not kitchen floor heater is off
+HeaterAgent                    Belief changed: not bathroom floor heater is on
+HeaterAgent                    Belief changed: bathroom floor heater is off
+HeaterAgent                    Belief changed: bedroom medium temperature
+HeaterAgent                    Belief changed: not bedroom high temperature
+LightAgent                     Belief changed: not kitchen low light
+LightAgent                     Belief changed: kitchen medium light
+LightAgent                     Belief changed: kitchen light is on
+LightAgent                     Belief changed: not kitchen light is off
+LightAgent                     Belief changed: bathroom low light
+LightAgent                     Belief changed: not bathroom medium light
+LightAgent                     Belief changed: not bathroom light is on
+LightAgent                     Belief changed: bathroom light is off
+LightAgent>SenseAutoTurnOnLightIntention#40 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#41:{light:"kitchen light"}}
+LightAgent>SenseAutoTurnOffLightIntention#41 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#42:{light:"bathroom light"}}
+0:10:57
+bedroom temperature is 20.0
+0:10:58
+0:10:59
+0:11:00
+0:11:01
+kitchen blind is completely raised
+0:11:02
+0:11:03
+0:11:04
+0:11:05
+0:11:06
+0:11:07
+0:11:08
+0:11:09
+0:11:10
+0:11:11
+0:11:12
+0:11:13
+0:11:14
+0:11:15
+Carlo moved from kitchen to livingroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in livingroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: Carlo is in livingroom
+RoomAgent                      Belief changed: livingroom is occupied
+RoomAgent                      Belief changed: not Carlo is in kitchen
+RoomAgent                      Belief changed: not kitchen is occupied
+HeaterAgent                    Belief changed: Carlo is in livingroom
+LightAgent                     Belief changed: Carlo is in livingroom
+HeaterAgent                    Belief changed: livingroom is occupied
+LightAgent                     Belief changed: livingroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in kitchen
+LightAgent                     Belief changed: not Carlo is in kitchen
+HeaterAgent                    Belief changed: not kitchen is occupied
+LightAgent                     Belief changed: not kitchen is occupied
+0:11:16
+livingroom blind is open
+livingroom floor heater is on
+kitchen temperature is 19.9
+kitchen floor heater is off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#43:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#42 Intention started
+livingroom light is switched on with 60W
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#44:{light:"kitchen light"}}
+LightAgent>SenseAutoTurnOffLightIntention#43 Intention started
+kitchen light is switched off
+HouseAgent>SenseBlindsIntention#6 Sensor: livingroom blind is open
+HouseAgent                     Belief changed: livingroom blind is open
+HouseAgent                     Belief changed: not livingroom blind is close
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched on
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: kitchen floor heater is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: kitchen light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: kitchen light is switched off
+HeaterAgent                    Belief changed: livingroom floor heater is on
+HeaterAgent                    Belief changed: not livingroom floor heater is off
+HeaterAgent                    Belief changed: not kitchen floor heater is on
+HeaterAgent                    Belief changed: kitchen floor heater is off
+LightAgent                     Belief changed: not livingroom low light
+LightAgent                     Belief changed: livingroom medium light
+LightAgent                     Belief changed: livingroom light is on
+LightAgent                     Belief changed: not livingroom light is off
+LightAgent                     Belief changed: kitchen low light
+LightAgent                     Belief changed: not kitchen medium light
+LightAgent                     Belief changed: not kitchen light is on
+LightAgent                     Belief changed: kitchen light is off
+LightAgent>SenseAutoTurnOnLightIntention#42 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#43:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#43 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#44:{light:"kitchen light"}}
+0:11:17
+0:11:18
+0:11:19
+0:11:20
+0:11:21
+livingroom blind is completely raised
+HouseAgent>SenseRaiseBlindsIntention#7 Intention success
+HouseAgent                     Succesfully used intention SenseRaiseBlindsIntention to achieve goal {SenseRaiseBlindsGoal#7:{blinds:["livingroom blind","kitchen blind","bedroom blind","bathroom blind"]}}
+0:11:22
+0:11:23
+0:11:24
+0:11:25
+0:11:26
+0:11:27
+0:11:28
+0:11:29
+0:11:30
+0:11:31
+0:11:32
+0:11:33
+0:11:34
+0:11:35
+0:11:36
+HeaterAgent>SenseTemperatureIntention#14 Sensor: livingroom temperature is medium
+HeaterAgent                    Belief changed: not livingroom low temperature
+HeaterAgent                    Belief changed: livingroom medium temperature
+0:11:37
+0:11:38
+0:11:39
+0:11:40
+0:11:41
+0:11:42
+0:11:43
+0:11:44
+0:11:45
+Carlo moved outside
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is outside
+RoomAgent                      Belief changed: not Carlo is in livingroom
+RoomAgent                      Belief changed: not livingroom is occupied
+RoomAgent                      Belief changed: not the house is occupied
+HeaterAgent                    Belief changed: not Carlo is in livingroom
+LightAgent                     Belief changed: not Carlo is in livingroom
+HeaterAgent                    Belief changed: not livingroom is occupied
+LightAgent                     Belief changed: not livingroom is occupied
+HeaterAgent                    Belief changed: not the house is occupied
+LightAgent                     Belief changed: not the house is occupied
+0:11:46
+livingroom temperature is 20.9
+livingroom floor heater is off
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#45:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#44 Intention started
+livingroom light is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched off
+HeaterAgent                    Belief changed: not livingroom floor heater is on
+HeaterAgent                    Belief changed: livingroom floor heater is off
+LightAgent                     Belief changed: livingroom low light
+LightAgent                     Belief changed: not livingroom medium light
+LightAgent                     Belief changed: not livingroom light is on
+LightAgent                     Belief changed: livingroom light is off
+LightAgent>SenseAutoTurnOffLightIntention#44 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#45:{light:"livingroom light"}}
+0:11:47
+0:11:48
+0:11:49
+0:11:50
+Carlo moved from outside to garage
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in garage
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: Carlo is in garage
+RoomAgent                      Belief changed: garage is occupied
+RoomAgent                      Belief changed: the house is occupied
+HeaterAgent                    Belief changed: Carlo is in garage
+LightAgent                     Belief changed: Carlo is in garage
+HeaterAgent                    Belief changed: garage is occupied
+LightAgent                     Belief changed: garage is occupied
+HeaterAgent                    Belief changed: the house is occupied
+LightAgent                     Belief changed: the house is occupied
+0:11:51
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#46:{light:"garage light"}}
+LightAgent>SenseAutoTurnOnLightIntention#45 Intention started
+garage light is switched on with 60W
+LightAgent>SenseIntensityIntention#19 Sensor: garage light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: garage light is switched on
+LightAgent                     Belief changed: not garage low light
+LightAgent                     Belief changed: garage medium light
+LightAgent                     Belief changed: garage light is on
+LightAgent                     Belief changed: not garage light is off
+garage light is increased manually reaching 100W
+LightAgent>SenseIntensityIntention#19 Sensor: garage light intensity is high
+LightAgent>SenseLightsIntention#18 Sensor: garage light is switched on manually
+LightAgent                     Belief changed: not garage medium light
+LightAgent                     Belief changed: garage high light
+LightAgent                     Belief changed: not garage light is on
+LightAgent                     Belief changed: garage light is on manually
+LightAgent>SenseAutoTurnOnLightIntention#45 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#46:{light:"garage light"}}
+LightAgent>SenseSetIntensityManuallyIntention#23 Intention success
+LightAgent                     Succesfully used intention SenseSetIntensityManuallyIntention to achieve goal {SenseSetIntensityManuallyGoal#23:{light:"garage light",hh:11,mm:51,intensityToAdd:50}}
+0:11:52
+0:11:53
+0:11:54
+0:11:55
+HeaterAgent>SenseTemperatureIntention#14 Sensor: livingroom temperature is medium
+0:11:56
+livingroom temperature is 20.0
+0:11:57
+0:11:58
+0:11:59
+0:12:00
+0:12:01
+0:12:02
+0:12:03
+0:12:04
+0:12:05
+0:12:06
+0:12:07
+0:12:08
+0:12:09
+0:12:10
+0:12:11
+0:12:12
+0:12:13
+0:12:14
+0:12:15
+0:12:16
+0:12:17
+0:12:18
+0:12:19
+0:12:20
+0:12:21
+0:12:22
+0:12:23
+0:12:24
+0:12:25
+0:12:26
+0:12:27
+0:12:28
+0:12:29
+0:12:30
+0:12:31
+0:12:32
+0:12:33
+0:12:34
+0:12:35
+0:12:36
+0:12:37
+0:12:38
+0:12:39
+0:12:40
+0:12:41
+0:12:42
+0:12:43
+0:12:44
+0:12:45
+0:12:46
+0:12:47
+0:12:48
+0:12:49
+0:12:50
+Carlo moved from garage to livingroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in livingroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: Carlo is in livingroom
+RoomAgent                      Belief changed: livingroom is occupied
+RoomAgent                      Belief changed: not Carlo is in garage
+RoomAgent                      Belief changed: not garage is occupied
+HeaterAgent                    Belief changed: Carlo is in livingroom
+LightAgent                     Belief changed: Carlo is in livingroom
+HeaterAgent                    Belief changed: livingroom is occupied
+LightAgent                     Belief changed: livingroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in garage
+LightAgent                     Belief changed: not Carlo is in garage
+HeaterAgent                    Belief changed: not garage is occupied
+LightAgent                     Belief changed: not garage is occupied
+0:12:51
+livingroom floor heater is on
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#47:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#46 Intention started
+livingroom light is switched on with 60W
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#48:{light:"garage light"}}
+LightAgent>SenseAutoTurnOffLightIntention#47 Intention started
+garage light is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: garage light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: garage light is switched off
+HeaterAgent                    Belief changed: livingroom floor heater is on
+HeaterAgent                    Belief changed: not livingroom floor heater is off
+LightAgent                     Belief changed: not livingroom low light
+LightAgent                     Belief changed: livingroom medium light
+LightAgent                     Belief changed: livingroom light is on
+LightAgent                     Belief changed: not livingroom light is off
+LightAgent                     Belief changed: garage low light
+LightAgent                     Belief changed: not garage high light
+LightAgent                     Belief changed: garage light is off
+LightAgent                     Belief changed: not garage light is on manually
+LightAgent>SenseAutoTurnOnLightIntention#46 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#47:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#47 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#48:{light:"garage light"}}
+0:12:52
+0:12:53
+0:12:54
+0:12:55
+Carlo moved from livingroom to bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: not Carlo is in livingroom
+RoomAgent                      Belief changed: not livingroom is occupied
+RoomAgent                      Belief changed: Carlo is in bedroom
+RoomAgent                      Belief changed: bedroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in livingroom
+LightAgent                     Belief changed: not Carlo is in livingroom
+HeaterAgent                    Belief changed: not livingroom is occupied
+LightAgent                     Belief changed: not livingroom is occupied
+HeaterAgent                    Belief changed: Carlo is in bedroom
+LightAgent                     Belief changed: Carlo is in bedroom
+HeaterAgent                    Belief changed: bedroom is occupied
+LightAgent                     Belief changed: bedroom is occupied
+0:12:56
+livingroom temperature is 20.4
+livingroom floor heater is off
+bedroom floor heater is on
+bedroom temperature is 18.1
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#49:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#48 Intention started
+livingroom light is switched off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#50:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#49 Intention started
+bedroom light is switched on with 60W
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched on
+HeaterAgent                    Belief changed: not livingroom floor heater is on
+HeaterAgent                    Belief changed: livingroom floor heater is off
+HeaterAgent                    Belief changed: bedroom floor heater is on
+HeaterAgent                    Belief changed: not bedroom floor heater is off
+LightAgent                     Belief changed: livingroom low light
+LightAgent                     Belief changed: not livingroom medium light
+LightAgent                     Belief changed: not livingroom light is on
+LightAgent                     Belief changed: livingroom light is off
+LightAgent                     Belief changed: not bedroom low light
+LightAgent                     Belief changed: bedroom medium light
+LightAgent                     Belief changed: bedroom light is on
+LightAgent                     Belief changed: not bedroom light is off
+LightAgent>SenseAutoTurnOffLightIntention#48 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#49:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#49 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#50:{light:"bedroom light"}}
+0:12:57
+0:12:58
+0:12:59
+0:13:00
+Carlo moved from bedroom to bathroom
+bathroom washing machine is turned on with cycle SYNTHETICS
+bathroom washing machine is starting
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in bathroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+HouseAgent>SenseWashingMachineIntention#2 Sensor: bathroom washing machine is on
+RoomAgent                      Belief changed: not Carlo is in bedroom
+RoomAgent                      Belief changed: not bedroom is occupied
+RoomAgent                      Belief changed: Carlo is in bathroom
+RoomAgent                      Belief changed: bathroom is occupied
+HouseAgent                     Belief changed: bathroom washing machine is on
+HouseAgent                     Belief changed: not bathroom washing machine is off
+HeaterAgent>SenseTemperatureIntention#14 Sensor: livingroom temperature is medium
+HeaterAgent                    Belief changed: not Carlo is in bedroom
+LightAgent                     Belief changed: not Carlo is in bedroom
+HeaterAgent                    Belief changed: not bedroom is occupied
+LightAgent                     Belief changed: not bedroom is occupied
+HeaterAgent                    Belief changed: Carlo is in bathroom
+LightAgent                     Belief changed: Carlo is in bathroom
+HeaterAgent                    Belief changed: bathroom is occupied
+LightAgent                     Belief changed: bathroom is occupied
+HouseAgent>SenseTurnOnWashingMachineIntention#3 Intention success
+HouseAgent                     Succesfully used intention SenseTurnOnWashingMachineIntention to achieve goal {SenseTurnOnWashingMachineGoal#3:{washingMachine:"bathroom washing machine"}}
+0:13:01
+bedroom temperature is 18.5
+bedroom floor heater is off
+bathroom floor heater is on
+livingroom temperature is 20.0
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#51:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#50 Intention started
+bedroom light is switched off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#52:{light:"bathroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#51 Intention started
+bathroom light is switched on with 60W
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bathroom floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: bathroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: bathroom light is switched on
+HeaterAgent                    Belief changed: not bedroom floor heater is on
+HeaterAgent                    Belief changed: bedroom floor heater is off
+HeaterAgent                    Belief changed: bathroom floor heater is on
+HeaterAgent                    Belief changed: not bathroom floor heater is off
+LightAgent                     Belief changed: bedroom low light
+LightAgent                     Belief changed: not bedroom medium light
+LightAgent                     Belief changed: not bedroom light is on
+LightAgent                     Belief changed: bedroom light is off
+LightAgent                     Belief changed: not bathroom low light
+LightAgent                     Belief changed: bathroom medium light
+LightAgent                     Belief changed: bathroom light is on
+LightAgent                     Belief changed: not bathroom light is off
+LightAgent>SenseAutoTurnOffLightIntention#50 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#51:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#51 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#52:{light:"bathroom light"}}
+0:13:02
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bathroom temperature is medium
+HeaterAgent                    Belief changed: not bathroom low temperature
+HeaterAgent                    Belief changed: bathroom medium temperature
+0:13:03
+0:13:04
+0:13:05
+0:13:06
+0:13:07
+0:13:08
+0:13:09
+0:13:10
+0:13:11
+0:13:12
+0:13:13
+0:13:14
+0:13:15
+0:13:16
+0:13:17
+0:13:18
+0:13:19
+0:13:20
+0:13:21
+0:13:22
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bathroom temperature is high
+HeaterAgent                    Belief changed: not bathroom medium temperature
+HeaterAgent                    Belief changed: bathroom high temperature
+0:13:23
+bathroom temperature is 22.0
+bathroom floor heater is off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bathroom floor heater is switched off
+HeaterAgent                    Belief changed: not bathroom floor heater is on
+HeaterAgent                    Belief changed: bathroom floor heater is off
+0:13:24
+0:13:25
+0:13:26
+0:13:27
+0:13:28
+0:13:29
+0:13:30
+Carlo moved from bathroom to bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: Carlo is in bedroom
+RoomAgent                      Belief changed: bedroom is occupied
+RoomAgent                      Belief changed: not Carlo is in bathroom
+RoomAgent                      Belief changed: not bathroom is occupied
+HeaterAgent                    Belief changed: Carlo is in bedroom
+LightAgent                     Belief changed: Carlo is in bedroom
+HeaterAgent                    Belief changed: bedroom is occupied
+LightAgent                     Belief changed: bedroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in bathroom
+LightAgent                     Belief changed: not Carlo is in bathroom
+HeaterAgent                    Belief changed: not bathroom is occupied
+LightAgent                     Belief changed: not bathroom is occupied
+0:13:31
+bedroom floor heater is on
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#53:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#52 Intention started
+bedroom light is switched on with 60W
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#54:{light:"bathroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#53 Intention started
+bathroom light is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: bathroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: bathroom light is switched off
+HeaterAgent                    Belief changed: bedroom floor heater is on
+HeaterAgent                    Belief changed: not bedroom floor heater is off
+LightAgent                     Belief changed: not bedroom low light
+LightAgent                     Belief changed: bedroom medium light
+LightAgent                     Belief changed: bedroom light is on
+LightAgent                     Belief changed: not bedroom light is off
+LightAgent                     Belief changed: bathroom low light
+LightAgent                     Belief changed: not bathroom medium light
+LightAgent                     Belief changed: not bathroom light is on
+LightAgent                     Belief changed: bathroom light is off
+LightAgent>SenseAutoTurnOnLightIntention#52 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#53:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#53 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#54:{light:"bathroom light"}}
+0:13:32
+0:13:33
+0:13:34
+0:13:35
+0:13:36
+0:13:37
+0:13:38
+0:13:39
+0:13:40
+0:13:41
+0:13:42
+0:13:43
+0:13:44
+0:13:45
+Carlo moved from bedroom to livingroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in livingroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: Carlo is in livingroom
+RoomAgent                      Belief changed: livingroom is occupied
+RoomAgent                      Belief changed: not Carlo is in bedroom
+RoomAgent                      Belief changed: not bedroom is occupied
+HeaterAgent                    Belief changed: Carlo is in livingroom
+LightAgent                     Belief changed: Carlo is in livingroom
+HeaterAgent                    Belief changed: livingroom is occupied
+LightAgent                     Belief changed: livingroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in bedroom
+LightAgent                     Belief changed: not Carlo is in bedroom
+HeaterAgent                    Belief changed: not bedroom is occupied
+LightAgent                     Belief changed: not bedroom is occupied
+0:13:46
+livingroom floor heater is on
+bedroom temperature is 19.9
+bedroom floor heater is off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#55:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#54 Intention started
+livingroom light is switched on with 60W
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#56:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#55 Intention started
+bedroom light is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched on
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched off
+HeaterAgent                    Belief changed: livingroom floor heater is on
+HeaterAgent                    Belief changed: not livingroom floor heater is off
+HeaterAgent                    Belief changed: not bedroom floor heater is on
+HeaterAgent                    Belief changed: bedroom floor heater is off
+LightAgent                     Belief changed: not livingroom low light
+LightAgent                     Belief changed: livingroom medium light
+LightAgent                     Belief changed: livingroom light is on
+LightAgent                     Belief changed: not livingroom light is off
+LightAgent                     Belief changed: bedroom low light
+LightAgent                     Belief changed: not bedroom medium light
+LightAgent                     Belief changed: not bedroom light is on
+LightAgent                     Belief changed: bedroom light is off
+0:13:47
+LightAgent>SenseAutoTurnOnLightIntention#54 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#55:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#55 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#56:{light:"bedroom light"}}
+0:13:48
+0:13:49
+0:13:50
+0:13:51
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bathroom temperature is medium
+HeaterAgent                    Belief changed: bathroom medium temperature
+HeaterAgent                    Belief changed: not bathroom high temperature
+0:13:52
+bathroom temperature is 20.0
+0:13:53
+0:13:54
+0:13:55
+0:13:56
+0:13:57
+0:13:58
+0:13:59
+0:14:00
+Carlo moved from livingroom to kitchen
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in kitchen
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: not Carlo is in livingroom
+RoomAgent                      Belief changed: not livingroom is occupied
+RoomAgent                      Belief changed: Carlo is in kitchen
+RoomAgent                      Belief changed: kitchen is occupied
+HeaterAgent                    Belief changed: not Carlo is in livingroom
+LightAgent                     Belief changed: not Carlo is in livingroom
+HeaterAgent                    Belief changed: not livingroom is occupied
+LightAgent                     Belief changed: not livingroom is occupied
+HeaterAgent                    Belief changed: Carlo is in kitchen
+LightAgent                     Belief changed: Carlo is in kitchen
+HeaterAgent                    Belief changed: kitchen is occupied
+LightAgent                     Belief changed: kitchen is occupied
+0:14:01
+bathroom washing machine cycle is over
+livingroom temperature is 21.4
+livingroom floor heater is off
+kitchen floor heater is on
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#57:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#56 Intention started
+livingroom light is switched off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#58:{light:"kitchen light"}}
+LightAgent>SenseAutoTurnOnLightIntention#57 Intention started
+kitchen light is switched on with 60W
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: kitchen floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: kitchen light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: kitchen light is switched on
+HeaterAgent                    Belief changed: not livingroom floor heater is on
+HeaterAgent                    Belief changed: livingroom floor heater is off
+HeaterAgent                    Belief changed: kitchen floor heater is on
+HeaterAgent                    Belief changed: not kitchen floor heater is off
+LightAgent                     Belief changed: livingroom low light
+LightAgent                     Belief changed: not livingroom medium light
+LightAgent                     Belief changed: not livingroom light is on
+LightAgent                     Belief changed: livingroom light is off
+LightAgent                     Belief changed: not kitchen low light
+LightAgent                     Belief changed: kitchen medium light
+LightAgent                     Belief changed: kitchen light is on
+LightAgent                     Belief changed: not kitchen light is off
+HouseAgent>SenseRunningWashingMachineIntention#4 Intention success
+HouseAgent                     Succesfully used intention SenseRunningWashingMachineIntention to achieve goal {SenseRunningWashingMachineGoal#4:{washingMachine:"bathroom washing machine"}}
+bathroom washing machine is turned off
+HouseAgent>SenseWashingMachineIntention#2 Sensor: bathroom washing machine is off
+HouseAgent                     Belief changed: not bathroom washing machine is on
+HouseAgent                     Belief changed: bathroom washing machine is off
+LightAgent>SenseAutoTurnOffLightIntention#56 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#57:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#57 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#58:{light:"kitchen light"}}
+HouseAgent>SenseTurnOffWashingMachineIntention#5 Intention success
+HouseAgent                     Succesfully used intention SenseTurnOffWashingMachineIntention to achieve goal {SenseTurnOffWashingMachineGoal#5:{washingMachine:"bathroom washing machine"}}
+0:14:02
+HeaterAgent>SenseTemperatureIntention#14 Sensor: kitchen temperature is medium
+HeaterAgent                    Belief changed: not kitchen low temperature
+HeaterAgent                    Belief changed: kitchen medium temperature
+0:14:03
+0:14:04
+0:14:05
+0:14:06
+0:14:07
+0:14:08
+0:14:09
+0:14:10
+0:14:11
+0:14:12
+0:14:13
+0:14:14
+0:14:15
+HeaterAgent>SenseTemperatureIntention#14 Sensor: livingroom temperature is medium
+0:14:16
+livingroom temperature is 20.0
+0:14:17
+0:14:18
+0:14:19
+0:14:20
+0:14:21
+0:14:22
+HeaterAgent>SenseTemperatureIntention#14 Sensor: kitchen temperature is high
+HeaterAgent                    Belief changed: not kitchen medium temperature
+HeaterAgent                    Belief changed: kitchen high temperature
+0:14:23
+kitchen temperature is 22.0
+kitchen floor heater is off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: kitchen floor heater is switched off
+HeaterAgent                    Belief changed: not kitchen floor heater is on
+HeaterAgent                    Belief changed: kitchen floor heater is off
+0:14:24
+0:14:25
+0:14:26
+0:14:27
+0:14:28
+0:14:29
+0:14:30
+0:14:31
+0:14:32
+0:14:33
+0:14:34
+0:14:35
+0:14:36
+0:14:37
+0:14:38
+0:14:39
+0:14:40
+0:14:41
+0:14:42
+0:14:43
+0:14:44
+0:14:45
+0:14:46
+0:14:47
+0:14:48
+0:14:49
+0:14:50
+0:14:51
+0:14:52
+0:14:53
+0:14:54
+0:14:55
+0:14:56
+0:14:57
+0:14:58
+0:14:59
+0:15:00
+Carlo moved from kitchen to bathroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in bathroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: not Carlo is in kitchen
+RoomAgent                      Belief changed: not kitchen is occupied
+RoomAgent                      Belief changed: Carlo is in bathroom
+RoomAgent                      Belief changed: bathroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in kitchen
+LightAgent                     Belief changed: not Carlo is in kitchen
+HeaterAgent                    Belief changed: not kitchen is occupied
+LightAgent                     Belief changed: not kitchen is occupied
+HeaterAgent                    Belief changed: Carlo is in bathroom
+LightAgent                     Belief changed: Carlo is in bathroom
+HeaterAgent                    Belief changed: bathroom is occupied
+LightAgent                     Belief changed: bathroom is occupied
+0:15:01
+bathroom floor heater is on
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#59:{light:"kitchen light"}}
+LightAgent>SenseAutoTurnOffLightIntention#58 Intention started
+kitchen light is switched off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#60:{light:"bathroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#59 Intention started
+bathroom light is switched on with 60W
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bathroom floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: kitchen light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: kitchen light is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: bathroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: bathroom light is switched on
+HeaterAgent                    Belief changed: bathroom floor heater is on
+HeaterAgent                    Belief changed: not bathroom floor heater is off
+LightAgent                     Belief changed: kitchen low light
+LightAgent                     Belief changed: not kitchen medium light
+LightAgent                     Belief changed: not kitchen light is on
+LightAgent                     Belief changed: kitchen light is off
+LightAgent                     Belief changed: not bathroom low light
+LightAgent                     Belief changed: bathroom medium light
+LightAgent                     Belief changed: bathroom light is on
+LightAgent                     Belief changed: not bathroom light is off
+LightAgent>SenseAutoTurnOffLightIntention#58 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#59:{light:"kitchen light"}}
+LightAgent>SenseAutoTurnOnLightIntention#59 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#60:{light:"bathroom light"}}
+0:15:02
+0:15:03
+0:15:04
+0:15:05
+0:15:06
+0:15:07
+0:15:08
+0:15:09
+0:15:10
+0:15:11
+0:15:12
+0:15:13
+0:15:14
+0:15:15
+Carlo moved from bathroom to bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: Carlo is in bedroom
+RoomAgent                      Belief changed: bedroom is occupied
+RoomAgent                      Belief changed: not Carlo is in bathroom
+RoomAgent                      Belief changed: not bathroom is occupied
+HeaterAgent                    Belief changed: Carlo is in bedroom
+LightAgent                     Belief changed: Carlo is in bedroom
+HeaterAgent                    Belief changed: bedroom is occupied
+LightAgent                     Belief changed: bedroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in bathroom
+LightAgent                     Belief changed: not Carlo is in bathroom
+HeaterAgent                    Belief changed: not bathroom is occupied
+LightAgent                     Belief changed: not bathroom is occupied
+0:15:16
+bedroom floor heater is on
+bathroom temperature is 21.4
+bathroom floor heater is off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#61:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#60 Intention started
+bedroom light is switched on with 60W
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#62:{light:"bathroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#61 Intention started
+bathroom light is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched on
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bathroom floor heater is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: bathroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: bathroom light is switched off
+HeaterAgent                    Belief changed: bedroom floor heater is on
+HeaterAgent                    Belief changed: not bedroom floor heater is off
+HeaterAgent                    Belief changed: not bathroom floor heater is on
+HeaterAgent                    Belief changed: bathroom floor heater is off
+LightAgent                     Belief changed: not bedroom low light
+LightAgent                     Belief changed: bedroom medium light
+LightAgent                     Belief changed: bedroom light is on
+LightAgent                     Belief changed: not bedroom light is off
+LightAgent                     Belief changed: bathroom low light
+LightAgent                     Belief changed: not bathroom medium light
+LightAgent                     Belief changed: not bathroom light is on
+LightAgent                     Belief changed: bathroom light is off
+LightAgent>SenseAutoTurnOnLightIntention#60 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#61:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#61 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#62:{light:"bathroom light"}}
+0:15:17
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bedroom temperature is medium
+0:15:18
+0:15:19
+0:15:20
+Carlo moved from bedroom to livingroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in livingroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: Carlo is in livingroom
+RoomAgent                      Belief changed: livingroom is occupied
+RoomAgent                      Belief changed: not Carlo is in bedroom
+RoomAgent                      Belief changed: not bedroom is occupied
+HeaterAgent                    Belief changed: Carlo is in livingroom
+LightAgent                     Belief changed: Carlo is in livingroom
+HeaterAgent                    Belief changed: livingroom is occupied
+LightAgent                     Belief changed: livingroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in bedroom
+LightAgent                     Belief changed: not Carlo is in bedroom
+HeaterAgent                    Belief changed: not bedroom is occupied
+LightAgent                     Belief changed: not bedroom is occupied
+0:15:21
+livingroom floor heater is on
+bedroom temperature is 20.3
+bedroom floor heater is off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#63:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#62 Intention started
+livingroom light is switched on with 60W
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#64:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#63 Intention started
+bedroom light is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched on
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched off
+HeaterAgent>SenseTemperatureIntention#14 Sensor: kitchen temperature is medium
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched off
+HeaterAgent                    Belief changed: livingroom floor heater is on
+HeaterAgent                    Belief changed: not livingroom floor heater is off
+HeaterAgent                    Belief changed: not bedroom floor heater is on
+HeaterAgent                    Belief changed: bedroom floor heater is off
+HeaterAgent                    Belief changed: kitchen medium temperature
+HeaterAgent                    Belief changed: not kitchen high temperature
+LightAgent                     Belief changed: not livingroom low light
+LightAgent                     Belief changed: livingroom medium light
+LightAgent                     Belief changed: livingroom light is on
+LightAgent                     Belief changed: not livingroom light is off
+LightAgent                     Belief changed: bedroom low light
+LightAgent                     Belief changed: not bedroom medium light
+LightAgent                     Belief changed: not bedroom light is on
+LightAgent                     Belief changed: bedroom light is off
+LightAgent>SenseAutoTurnOnLightIntention#62 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#63:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#63 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#64:{light:"bedroom light"}}
+0:15:22
+kitchen temperature is 20.0
+0:15:23
+0:15:24
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bedroom temperature is medium
+0:15:25
+bedroom temperature is 20.0
+0:15:26
+0:15:27
+0:15:28
+0:15:29
+0:15:30
+Carlo moved outside
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is outside
+RoomAgent                      Belief changed: not Carlo is in livingroom
+RoomAgent                      Belief changed: not livingroom is occupied
+RoomAgent                      Belief changed: not the house is occupied
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bathroom temperature is medium
+HeaterAgent                    Belief changed: not Carlo is in livingroom
+LightAgent                     Belief changed: not Carlo is in livingroom
+HeaterAgent                    Belief changed: not livingroom is occupied
+LightAgent                     Belief changed: not livingroom is occupied
+HeaterAgent                    Belief changed: not the house is occupied
+LightAgent                     Belief changed: not the house is occupied
+0:15:31
+livingroom temperature is 20.9
+livingroom floor heater is off
+bathroom temperature is 20.0
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#65:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#64 Intention started
+livingroom light is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched off
+HeaterAgent                    Belief changed: not livingroom floor heater is on
+HeaterAgent                    Belief changed: livingroom floor heater is off
+LightAgent                     Belief changed: livingroom low light
+LightAgent                     Belief changed: not livingroom medium light
+LightAgent                     Belief changed: not livingroom light is on
+LightAgent                     Belief changed: livingroom light is off
+LightAgent>SenseAutoTurnOffLightIntention#64 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#65:{light:"livingroom light"}}
+0:15:32
+0:15:33
+0:15:34
+0:15:35
+0:15:36
+0:15:37
+0:15:38
+0:15:39
+0:15:40
+HeaterAgent>SenseTemperatureIntention#14 Sensor: livingroom temperature is medium
+0:15:41
+livingroom temperature is 20.0
+0:15:42
+0:15:43
+0:15:44
+0:15:45
+0:15:46
+0:15:47
+0:15:48
+0:15:49
+0:15:50
+0:15:51
+0:15:52
+0:15:53
+0:15:54
+0:15:55
+0:15:56
+0:15:57
+0:15:58
+0:15:59
+0:16:00
+VacuumCleanerAgent             Trying to use intention OnlinePlanning to achieve goal {PddlGoal#28:{goal:["cleaned livingroom","cleaned kitchen","cleaned bedroom","cleaned bathroom","mediumCharge"]}}
+VacuumCleanerAgent>OnlinePlanning#65 Intention started
+0:16:01
+0:16:02
+0:16:03
+0:16:04
+0:16:05
+0:16:06
+0:16:07
+0:16:08
+0:16:09
+0:16:10
+VacuumCleanerAgent>OnlinePlanning#65 Plan found:
+VacuumCleanerAgent>OnlinePlanning#65 - (move livingroom kitchen)
+VacuumCleanerAgent>OnlinePlanning#65 - (firstchargeclean kitchen)
+VacuumCleanerAgent>OnlinePlanning#65 - (move kitchen livingroom)
+VacuumCleanerAgent>OnlinePlanning#65 - (move livingroom bedroom)
+VacuumCleanerAgent>OnlinePlanning#65 - (secondchargeclean bedroom)
+VacuumCleanerAgent>OnlinePlanning#65 - (move bedroom livingroom)
+VacuumCleanerAgent>OnlinePlanning#65 - (charge livingroom)
+VacuumCleanerAgent>OnlinePlanning#65 - (firstchargeclean livingroom)
+VacuumCleanerAgent>OnlinePlanning#65 Starting sequential step (Move livingroom kitchen) Effect: not inRoom livingroom,inRoom kitchen
+VacuumCleanerAgent>Move#66     Intention started
+0:16:11
+0:16:12
+0:16:13
+0:16:14
+0:16:15
+Vacuum cleaner DYSON move from livingroom to kitchen!
+VacuumCleanerAgent             Belief changed: inRoom kitchen
+VacuumCleanerAgent             Belief changed: not inRoom livingroom
+VacuumCleanerAgent             Belief changed: inRoom kitchen
+VacuumCleanerAgent>Move#66     Intention success
+VacuumCleanerAgent>OnlinePlanning#65 Starting sequential step (FirstChargeClean kitchen) Effect: cleaned kitchen,mediumCharge,not highCharge
+VacuumCleanerAgent>FirstChargeClean#67 Intention started
+0:16:16
+0:16:17
+0:16:18
+0:16:19
+0:16:20
+0:16:21
+0:16:22
+0:16:23
+0:16:24
+0:16:25
+0:16:26
+0:16:27
+0:16:28
+0:16:29
+0:16:30
+0:16:31
+0:16:32
+0:16:33
+0:16:34
+0:16:35
+kitchen is cleaned by vacuum cleaner DYSON!
+VacuumCleanerAgent             Belief changed: not highCharge
+VacuumCleanerAgent             Belief changed: mediumCharge
+VacuumCleanerAgent             Belief changed: cleaned kitchen
+VacuumCleanerAgent>FirstChargeClean#67 Intention success
+VacuumCleanerAgent             Belief changed: not cleaned kitchen
+VacuumCleanerAgent>OnlinePlanning#65 Starting sequential step (Move kitchen livingroom) Effect: not inRoom kitchen,inRoom livingroom
+VacuumCleanerAgent>Move#68     Intention started
+0:16:36
+0:16:37
+0:16:38
+0:16:39
+0:16:40
+Vacuum cleaner DYSON move from kitchen to livingroom!
+VacuumCleanerAgent             Belief changed: inRoom livingroom
+VacuumCleanerAgent             Belief changed: not inRoom kitchen
+VacuumCleanerAgent             Belief changed: inRoom livingroom
+VacuumCleanerAgent>Move#68     Intention success
+VacuumCleanerAgent>OnlinePlanning#65 Starting sequential step (Move livingroom bedroom) Effect: not inRoom livingroom,inRoom bedroom
+VacuumCleanerAgent>Move#69     Intention started
+0:16:41
+0:16:42
+0:16:43
+0:16:44
+0:16:45
+Vacuum cleaner DYSON move from livingroom to bedroom!
+VacuumCleanerAgent             Belief changed: inRoom bedroom
+VacuumCleanerAgent             Belief changed: not inRoom livingroom
+VacuumCleanerAgent             Belief changed: inRoom bedroom
+VacuumCleanerAgent>Move#69     Intention success
+VacuumCleanerAgent>OnlinePlanning#65 Starting sequential step (SecondChargeClean bedroom) Effect: cleaned bedroom,lowCharge,not mediumCharge
+VacuumCleanerAgent>SecondChargeClean#70 Intention started
+0:16:46
+0:16:47
+0:16:48
+0:16:49
+0:16:50
+0:16:51
+0:16:52
+0:16:53
+0:16:54
+0:16:55
+0:16:56
+0:16:57
+0:16:58
+0:16:59
+0:17:00
+0:17:01
+0:17:02
+0:17:03
+0:17:04
+0:17:05
+bedroom is cleaned by vacuum cleaner DYSON!
+VacuumCleanerAgent             Belief changed: not mediumCharge
+VacuumCleanerAgent             Belief changed: lowCharge
+VacuumCleanerAgent             Belief changed: cleaned bedroom
+VacuumCleanerAgent>SecondChargeClean#70 Intention success
+VacuumCleanerAgent             Belief changed: not cleaned bedroom
+VacuumCleanerAgent>OnlinePlanning#65 Starting sequential step (Move bedroom livingroom) Effect: not inRoom bedroom,inRoom livingroom
+VacuumCleanerAgent>Move#71     Intention started
+0:17:06
+0:17:07
+0:17:08
+0:17:09
+0:17:10
+Vacuum cleaner DYSON move from bedroom to livingroom!
+VacuumCleanerAgent             Belief changed: inRoom livingroom
+VacuumCleanerAgent             Belief changed: not inRoom bedroom
+VacuumCleanerAgent             Belief changed: inRoom livingroom
+VacuumCleanerAgent>Move#71     Intention success
+VacuumCleanerAgent>OnlinePlanning#65 Starting sequential step (Charge livingroom) Effect: highCharge,not lowCharge,not mediumCharge
+VacuumCleanerAgent>Charge#72   Intention started
+Vacuum cleaner DYSON is charging!
+0:17:11
+0:17:12
+0:17:13
+0:17:14
+0:17:15
+0:17:16
+0:17:17
+0:17:18
+0:17:19
+0:17:20
+0:17:21
+HeaterAgent>SenseTemperatureIntention#14 Sensor: kitchen temperature is low
+HeaterAgent                    Belief changed: kitchen low temperature
+HeaterAgent                    Belief changed: not kitchen medium temperature
+0:17:22
+kitchen temperature is 18.0
+0:17:23
+0:17:24
+0:17:25
+0:17:26
+0:17:27
+0:17:28
+0:17:29
+0:17:30
+0:17:31
+0:17:32
+0:17:33
+0:17:34
+0:17:35
+0:17:36
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bathroom temperature is low
+HeaterAgent                    Belief changed: bathroom low temperature
+HeaterAgent                    Belief changed: not bathroom medium temperature
+0:17:37
+bathroom temperature is 18.0
+0:17:38
+0:17:39
+0:17:40
+0:17:41
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bedroom temperature is low
+HeaterAgent                    Belief changed: bedroom low temperature
+HeaterAgent                    Belief changed: not bedroom medium temperature
+0:17:42
+bedroom temperature is 18.0
+0:17:43
+0:17:44
+0:17:45
+0:17:46
+0:17:47
+0:17:48
+0:17:49
+0:17:50
+0:17:51
+HeaterAgent>SenseTemperatureIntention#14 Sensor: livingroom temperature is low
+HeaterAgent                    Belief changed: livingroom low temperature
+HeaterAgent                    Belief changed: not livingroom medium temperature
+0:17:52
+livingroom temperature is 18.0
+0:17:53
+0:17:54
+0:17:55
+0:17:56
+0:17:57
+0:17:58
+0:17:59
+0:18:00
+0:18:01
+0:18:02
+0:18:03
+0:18:04
+0:18:05
+0:18:06
+0:18:07
+0:18:08
+0:18:09
+0:18:10
+0:18:11
+0:18:12
+0:18:13
+0:18:14
+0:18:15
+0:18:16
+0:18:17
+0:18:18
+0:18:19
+0:18:20
+0:18:21
+0:18:22
+0:18:23
+0:18:24
+0:18:25
+0:18:26
+0:18:27
+0:18:28
+0:18:29
+0:18:30
+0:18:31
+0:18:32
+0:18:33
+0:18:34
+0:18:35
+0:18:36
+0:18:37
+0:18:38
+0:18:39
+0:18:40
+0:18:41
+0:18:42
+0:18:43
+0:18:44
+0:18:45
+0:18:46
+0:18:47
+0:18:48
+0:18:49
+0:18:50
+0:18:51
+0:18:52
+0:18:53
+0:18:54
+0:18:55
+0:18:56
+0:18:57
+0:18:58
+0:18:59
+0:19:00
+0:19:01
+0:19:02
+0:19:03
+0:19:04
+0:19:05
+0:19:06
+0:19:07
+0:19:08
+0:19:09
+0:19:10
+0:19:11
+0:19:12
+0:19:13
+0:19:14
+0:19:15
+0:19:16
+0:19:17
+0:19:18
+0:19:19
+0:19:20
+0:19:21
+0:19:22
+0:19:23
+0:19:24
+0:19:25
+0:19:26
+0:19:27
+0:19:28
+0:19:29
+0:19:30
+0:19:31
+0:19:32
+0:19:33
+0:19:34
+0:19:35
+0:19:36
+0:19:37
+0:19:38
+0:19:39
+0:19:40
+0:19:41
+0:19:42
+0:19:43
+0:19:44
+0:19:45
+0:19:46
+0:19:47
+0:19:48
+0:19:49
+0:19:50
+0:19:51
+0:19:52
+0:19:53
+0:19:54
+0:19:55
+0:19:56
+0:19:57
+0:19:58
+0:19:59
+0:20:00
+0:20:01
+0:20:02
+0:20:03
+0:20:04
+0:20:05
+0:20:06
+0:20:07
+0:20:08
+0:20:09
+0:20:10
+0:20:11
+0:20:12
+0:20:13
+0:20:14
+0:20:15
+0:20:16
+0:20:17
+0:20:18
+0:20:19
+0:20:20
+0:20:21
+0:20:22
+0:20:23
+0:20:24
+0:20:25
+0:20:26
+0:20:27
+0:20:28
+0:20:29
+0:20:30
+0:20:31
+0:20:32
+0:20:33
+0:20:34
+0:20:35
+0:20:36
+0:20:37
+0:20:38
+0:20:39
+0:20:40
+0:20:41
+0:20:42
+0:20:43
+0:20:44
+0:20:45
+0:20:46
+0:20:47
+0:20:48
+0:20:49
+0:20:50
+0:20:51
+0:20:52
+0:20:53
+0:20:54
+0:20:55
+0:20:56
+0:20:57
+0:20:58
+0:20:59
+0:21:00
+0:21:01
+0:21:02
+0:21:03
+0:21:04
+0:21:05
+0:21:06
+0:21:07
+0:21:08
+0:21:09
+0:21:10
+Vacuum cleaner DYSON has full battery!
+VacuumCleanerAgent             Belief changed: highCharge
+VacuumCleanerAgent             Belief changed: not lowCharge
+VacuumCleanerAgent>Charge#72   Intention success
+VacuumCleanerAgent>OnlinePlanning#65 Starting sequential step (FirstChargeClean livingroom) Effect: cleaned livingroom,mediumCharge,not highCharge
+VacuumCleanerAgent>FirstChargeClean#73 Intention started
+0:21:11
+0:21:12
+0:21:13
+0:21:14
+0:21:15
+0:21:16
+0:21:17
+0:21:18
+0:21:19
+0:21:20
+0:21:21
+0:21:22
+0:21:23
+0:21:24
+0:21:25
+0:21:26
+0:21:27
+0:21:28
+0:21:29
+0:21:30
+livingroom is cleaned by vacuum cleaner DYSON!
+VacuumCleanerAgent             Belief changed: not highCharge
+VacuumCleanerAgent             Belief changed: mediumCharge
+VacuumCleanerAgent>FirstChargeClean#73 Intention success
+VacuumCleanerAgent>OnlinePlanning#65 Intention success
+VacuumCleanerAgent             Succesfully used intention OnlinePlanning to achieve goal {PddlGoal#28:{goal:["cleaned livingroom","cleaned kitchen","cleaned bedroom","cleaned bathroom","mediumCharge"]}}
+VacuumCleanerAgent>SenseRetryFourTimesIntention#28 Intention success
+VacuumCleanerAgent             Succesfully used intention SenseRetryFourTimesIntention to achieve goal {SenseRetryGoal#29:{goal:{PddlGoal#28:{goal:["cleaned livingroom","cleaned kitchen","cleaned bedroom","cleaned bathroom","mediumCharge"]}},hh:16,mm:0}}
+0:21:31
+0:21:32
+0:21:33
+0:21:34
+0:21:35
+0:21:36
+0:21:37
+0:21:38
+0:21:39
+0:21:40
+0:21:41
+0:21:42
+0:21:43
+0:21:44
+0:21:45
+0:21:46
+0:21:47
+0:21:48
+0:21:49
+0:21:50
+0:21:51
+0:21:52
+0:21:53
+0:21:54
+0:21:55
+0:21:56
+0:21:57
+0:21:58
+0:21:59
+0:22:00
+Carlo moved from outside to livingroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in livingroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: Carlo is in livingroom
+RoomAgent                      Belief changed: livingroom is occupied
+RoomAgent                      Belief changed: the house is occupied
+HeaterAgent                    Belief changed: Carlo is in livingroom
+LightAgent                     Belief changed: Carlo is in livingroom
+HeaterAgent                    Belief changed: livingroom is occupied
+LightAgent                     Belief changed: livingroom is occupied
+HeaterAgent                    Belief changed: the house is occupied
+LightAgent                     Belief changed: the house is occupied
+0:22:01
+livingroom floor heater is on
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#74:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#74 Intention started
+livingroom light is switched on with 60W
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched on
+HeaterAgent                    Belief changed: livingroom floor heater is on
+HeaterAgent                    Belief changed: not livingroom floor heater is off
+LightAgent                     Belief changed: not livingroom low light
+LightAgent                     Belief changed: livingroom medium light
+LightAgent                     Belief changed: livingroom light is on
+LightAgent                     Belief changed: not livingroom light is off
+LightAgent>SenseAutoTurnOnLightIntention#74 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#74:{light:"livingroom light"}}
+0:22:02
+0:22:03
+0:22:04
+0:22:05
+Carlo moved from livingroom to bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: not Carlo is in livingroom
+RoomAgent                      Belief changed: not livingroom is occupied
+RoomAgent                      Belief changed: Carlo is in bedroom
+RoomAgent                      Belief changed: bedroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in livingroom
+LightAgent                     Belief changed: not Carlo is in livingroom
+HeaterAgent                    Belief changed: not livingroom is occupied
+LightAgent                     Belief changed: not livingroom is occupied
+HeaterAgent                    Belief changed: Carlo is in bedroom
+LightAgent                     Belief changed: Carlo is in bedroom
+HeaterAgent                    Belief changed: bedroom is occupied
+LightAgent                     Belief changed: bedroom is occupied
+0:22:06
+livingroom temperature is 18.4
+livingroom floor heater is off
+bedroom floor heater is on
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#75:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#75 Intention started
+livingroom light is switched off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#76:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#76 Intention started
+bedroom light is switched on with 60W
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched on
+HeaterAgent                    Belief changed: not livingroom floor heater is on
+HeaterAgent                    Belief changed: livingroom floor heater is off
+HeaterAgent                    Belief changed: bedroom floor heater is on
+HeaterAgent                    Belief changed: not bedroom floor heater is off
+LightAgent                     Belief changed: livingroom low light
+LightAgent                     Belief changed: not livingroom medium light
+LightAgent                     Belief changed: not livingroom light is on
+LightAgent                     Belief changed: livingroom light is off
+LightAgent                     Belief changed: not bedroom low light
+LightAgent                     Belief changed: bedroom medium light
+LightAgent                     Belief changed: bedroom light is on
+LightAgent                     Belief changed: not bedroom light is off
+LightAgent>SenseAutoTurnOffLightIntention#75 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#75:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#76 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#76:{light:"bedroom light"}}
+0:22:07
+0:22:08
+0:22:09
+0:22:10
+Carlo moved from bedroom to bathroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in bathroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+RoomAgent                      Belief changed: not Carlo is in bedroom
+RoomAgent                      Belief changed: not bedroom is occupied
+RoomAgent                      Belief changed: Carlo is in bathroom
+RoomAgent                      Belief changed: bathroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in bedroom
+LightAgent                     Belief changed: not Carlo is in bedroom
+HeaterAgent                    Belief changed: not bedroom is occupied
+LightAgent                     Belief changed: not bedroom is occupied
+HeaterAgent                    Belief changed: Carlo is in bathroom
+LightAgent                     Belief changed: Carlo is in bathroom
+HeaterAgent                    Belief changed: bathroom is occupied
+LightAgent                     Belief changed: bathroom is occupied
+0:22:11
+bedroom temperature is 18.4
+bedroom floor heater is off
+bathroom floor heater is on
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#77:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#77 Intention started
+bedroom light is switched off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#78:{light:"bathroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#78 Intention started
+bathroom light is switched on with 60W
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bathroom floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: bathroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: bathroom light is switched on
+HeaterAgent                    Belief changed: not bedroom floor heater is on
+HeaterAgent                    Belief changed: bedroom floor heater is off
+HeaterAgent                    Belief changed: bathroom floor heater is on
+HeaterAgent                    Belief changed: not bathroom floor heater is off
+LightAgent                     Belief changed: bedroom low light
+LightAgent                     Belief changed: not bedroom medium light
+LightAgent                     Belief changed: not bedroom light is on
+LightAgent                     Belief changed: bedroom light is off
+LightAgent                     Belief changed: not bathroom low light
+LightAgent                     Belief changed: bathroom medium light
+LightAgent                     Belief changed: bathroom light is on
+LightAgent                     Belief changed: not bathroom light is off
+LightAgent>SenseAutoTurnOffLightIntention#77 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#77:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#78 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#78:{light:"bathroom light"}}
+0:22:12
+0:22:13
+0:22:14
+0:22:15
+0:22:16
+0:22:17
+0:22:18
+0:22:19
+0:22:20
+bathroom blind is close
+Carlo moved from bathroom to kitchen
+HouseAgent>SenseBlindsIntention#6 Sensor: bathroom blind is close
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in kitchen
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+HouseAgent                     Belief changed: not bathroom blind is open
+HouseAgent                     Belief changed: bathroom blind is close
+RoomAgent                      Belief changed: Carlo is in kitchen
+RoomAgent                      Belief changed: kitchen is occupied
+RoomAgent                      Belief changed: not Carlo is in bathroom
+RoomAgent                      Belief changed: not bathroom is occupied
+HeaterAgent                    Belief changed: Carlo is in kitchen
+LightAgent                     Belief changed: Carlo is in kitchen
+HeaterAgent                    Belief changed: kitchen is occupied
+LightAgent                     Belief changed: kitchen is occupied
+HeaterAgent                    Belief changed: not Carlo is in bathroom
+LightAgent                     Belief changed: not Carlo is in bathroom
+HeaterAgent                    Belief changed: not bathroom is occupied
+LightAgent                     Belief changed: not bathroom is occupied
+0:22:21
+kitchen floor heater is on
+bathroom temperature is 18.9
+bathroom floor heater is off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#79:{light:"kitchen light"}}
+LightAgent>SenseAutoTurnOnLightIntention#79 Intention started
+kitchen light is switched on with 60W
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#80:{light:"bathroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#80 Intention started
+bathroom light is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: kitchen floor heater is switched on
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bathroom floor heater is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: kitchen light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: kitchen light is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: bathroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: bathroom light is switched off
+HeaterAgent                    Belief changed: kitchen floor heater is on
+HeaterAgent                    Belief changed: not kitchen floor heater is off
+HeaterAgent                    Belief changed: not bathroom floor heater is on
+HeaterAgent                    Belief changed: bathroom floor heater is off
+LightAgent                     Belief changed: not kitchen low light
+LightAgent                     Belief changed: kitchen medium light
+LightAgent                     Belief changed: kitchen light is on
+LightAgent                     Belief changed: not kitchen light is off
+LightAgent                     Belief changed: bathroom low light
+LightAgent                     Belief changed: not bathroom medium light
+LightAgent                     Belief changed: not bathroom light is on
+LightAgent                     Belief changed: bathroom light is off
+0:22:22
+LightAgent>SenseAutoTurnOnLightIntention#79 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#79:{light:"kitchen light"}}
+LightAgent>SenseAutoTurnOffLightIntention#80 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#80:{light:"bathroom light"}}
+0:22:23
+0:22:24
+0:22:25
+kitchen blind is close
+Carlo moved from kitchen to livingroom
+bathroom blind is completely lowered
+HouseAgent>SenseBlindsIntention#6 Sensor: kitchen blind is close
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in livingroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+HouseAgent                     Belief changed: not kitchen blind is open
+HouseAgent                     Belief changed: kitchen blind is close
+RoomAgent                      Belief changed: Carlo is in livingroom
+RoomAgent                      Belief changed: livingroom is occupied
+RoomAgent                      Belief changed: not Carlo is in kitchen
+RoomAgent                      Belief changed: not kitchen is occupied
+HeaterAgent                    Belief changed: Carlo is in livingroom
+LightAgent                     Belief changed: Carlo is in livingroom
+HeaterAgent                    Belief changed: livingroom is occupied
+LightAgent                     Belief changed: livingroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in kitchen
+LightAgent                     Belief changed: not Carlo is in kitchen
+HeaterAgent                    Belief changed: not kitchen is occupied
+LightAgent                     Belief changed: not kitchen is occupied
+0:22:26
+livingroom floor heater is on
+kitchen temperature is 18.4
+kitchen floor heater is off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#81:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#81 Intention started
+livingroom light is switched on with 60W
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#82:{light:"kitchen light"}}
+LightAgent>SenseAutoTurnOffLightIntention#82 Intention started
+kitchen light is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched on
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: kitchen floor heater is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: kitchen light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: kitchen light is switched off
+HeaterAgent                    Belief changed: livingroom floor heater is on
+HeaterAgent                    Belief changed: not livingroom floor heater is off
+HeaterAgent                    Belief changed: not kitchen floor heater is on
+HeaterAgent                    Belief changed: kitchen floor heater is off
+LightAgent                     Belief changed: not livingroom low light
+LightAgent                     Belief changed: livingroom medium light
+LightAgent                     Belief changed: livingroom light is on
+LightAgent                     Belief changed: not livingroom light is off
+LightAgent                     Belief changed: kitchen low light
+LightAgent                     Belief changed: not kitchen medium light
+LightAgent                     Belief changed: not kitchen light is on
+LightAgent                     Belief changed: kitchen light is off
+0:22:27
+LightAgent>SenseAutoTurnOnLightIntention#81 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#81:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#82 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#82:{light:"kitchen light"}}
+0:22:28
+0:22:29
+0:22:30
+kitchen blind is completely lowered
+0:22:31
+0:22:32
+0:22:33
+0:22:34
+0:22:35
+0:22:36
+0:22:37
+0:22:38
+0:22:39
+0:22:40
+livingroom blind is close
+Carlo moved from livingroom to bedroom
+HouseAgent>SenseBlindsIntention#6 Sensor: livingroom blind is close
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is in bedroom
+RoomAgent>SenseRoomOccupancyIntention#0 Sensor: Carlo is inside the house
+HouseAgent                     Belief changed: not livingroom blind is open
+HouseAgent                     Belief changed: livingroom blind is close
+RoomAgent                      Belief changed: not Carlo is in livingroom
+RoomAgent                      Belief changed: not livingroom is occupied
+RoomAgent                      Belief changed: Carlo is in bedroom
+RoomAgent                      Belief changed: bedroom is occupied
+HeaterAgent                    Belief changed: not Carlo is in livingroom
+LightAgent                     Belief changed: not Carlo is in livingroom
+HeaterAgent                    Belief changed: not livingroom is occupied
+LightAgent                     Belief changed: not livingroom is occupied
+HeaterAgent                    Belief changed: Carlo is in bedroom
+LightAgent                     Belief changed: Carlo is in bedroom
+HeaterAgent                    Belief changed: bedroom is occupied
+LightAgent                     Belief changed: bedroom is occupied
+0:22:41
+livingroom temperature is 19.8
+livingroom floor heater is off
+bedroom floor heater is on
+LightAgent                     Trying to use intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#83:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOffLightIntention#83 Intention started
+livingroom light is switched off
+LightAgent                     Trying to use intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#84:{light:"bedroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#84 Intention started
+bedroom light is switched on with 60W
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: livingroom floor heater is switched off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched on
+LightAgent>SenseIntensityIntention#19 Sensor: livingroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: livingroom light is switched off
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is medium
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched on
+HeaterAgent                    Belief changed: not livingroom floor heater is on
+HeaterAgent                    Belief changed: livingroom floor heater is off
+HeaterAgent                    Belief changed: bedroom floor heater is on
+HeaterAgent                    Belief changed: not bedroom floor heater is off
+LightAgent                     Belief changed: livingroom low light
+LightAgent                     Belief changed: not livingroom medium light
+LightAgent                     Belief changed: not livingroom light is on
+LightAgent                     Belief changed: livingroom light is off
+LightAgent                     Belief changed: not bedroom low light
+LightAgent                     Belief changed: bedroom medium light
+LightAgent                     Belief changed: bedroom light is on
+LightAgent                     Belief changed: not bedroom light is off
+LightAgent>SenseAutoTurnOffLightIntention#83 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOffLightIntention to achieve goal {SenseAutoTurnOffLightGoal#83:{light:"livingroom light"}}
+LightAgent>SenseAutoTurnOnLightIntention#84 Intention success
+LightAgent                     Succesfully used intention SenseAutoTurnOnLightIntention to achieve goal {SenseAutoTurnOnLightGoal#84:{light:"bedroom light"}}
+0:22:42
+0:22:43
+0:22:44
+0:22:45
+bedroom blind is close
+livingroom blind is completely lowered
+HouseAgent>SenseBlindsIntention#6 Sensor: bedroom blind is close
+HouseAgent                     Belief changed: not bedroom blind is open
+HouseAgent                     Belief changed: bedroom blind is close
+0:22:46
+0:22:47
+0:22:48
+0:22:49
+0:22:50
+bedroom blind is completely lowered
+0:22:51
+HouseAgent>SenseLowerBlindsIntention#8 Intention success
+HouseAgent                     Succesfully used intention SenseLowerBlindsIntention to achieve goal {SenseLowerBlindsGoal#8:{blinds:["livingroom blind","kitchen blind","bedroom blind","bathroom blind"]}}
+0:22:52
+0:22:53
+0:22:54
+0:22:55
+bedroom light is switched off manually
+LightAgent>SenseIntensityIntention#19 Sensor: bedroom light intensity is low
+LightAgent>SenseLightsIntention#18 Sensor: bedroom light is switched off manually
+LightAgent                     Belief changed: bedroom low light
+LightAgent                     Belief changed: not bedroom medium light
+LightAgent                     Belief changed: not bedroom light is on
+LightAgent                     Belief changed: bedroom light is off manually
+LightAgent>SenseSetIntensityManuallyIntention#24 Intention success
+LightAgent                     Succesfully used intention SenseSetIntensityManuallyIntention to achieve goal {SenseSetIntensityManuallyGoal#24:{light:"bedroom light",hh:22,mm:55,intensityToAdd:-100}}
+0:22:56
+0:22:57
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bedroom temperature is medium
+HeaterAgent                    Belief changed: not bedroom low temperature
+HeaterAgent                    Belief changed: bedroom medium temperature
+0:22:58
+0:22:59
+0:23:00
+0:23:01
+0:23:02
+0:23:03
+0:23:04
+0:23:05
+0:23:06
+0:23:07
+0:23:08
+0:23:09
+0:23:10
+0:23:11
+0:23:12
+0:23:13
+0:23:14
+0:23:15
+0:23:16
+0:23:17
+HeaterAgent>SenseTemperatureIntention#14 Sensor: bedroom temperature is high
+HeaterAgent                    Belief changed: not bedroom medium temperature
+HeaterAgent                    Belief changed: bedroom high temperature
+0:23:18
+bedroom temperature is 22.0
+bedroom floor heater is off
+HeaterAgent>SenseFloorHeatersIntention#13 Sensor: bedroom floor heater is switched off
+HeaterAgent                    Belief changed: not bedroom floor heater is on
+HeaterAgent                    Belief changed: bedroom floor heater is off
+0:23:19
+0:23:20
+0:23:21
+0:23:22
+0:23:23
+0:23:24
+0:23:25
+0:23:26
+0:23:27
+0:23:28
+0:23:29
+0:23:30
+0:23:31
+0:23:32
+0:23:33
+0:23:34
+0:23:35
+0:23:36
+0:23:37
+0:23:38
+0:23:39
+0:23:40
+0:23:41
+0:23:42
+0:23:43
+0:23:44
+0:23:45
+0:23:46
+0:23:47
+0:23:48
+0:23:49
+0:23:50
+0:23:51
+0:23:52
+0:23:53
+0:23:54
+0:23:55
+0:23:56
+0:23:57
+0:23:58
+0:23:59
+1:00:00

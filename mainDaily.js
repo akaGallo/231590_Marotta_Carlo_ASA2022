@@ -1,0 +1,1 @@
+const scenario = require("./src/scenario/MyDailyScenario.js");
