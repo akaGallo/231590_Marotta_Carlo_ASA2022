@@ -218,4 +218,4 @@ node mainSunday.js
 
 ## **GIT link**
 
-(https://github.com/akaGallo/Smart-house-ASA2022)
+[Autonomous Software Agents project - Smart House](https://github.com/akaGallo/Smart-house-ASA2022)
