@@ -203,12 +203,14 @@ and 4 pddl actions:
 ## **Run**
 
 ### **Run a daily scenario**
-
+```bash
 node mainDaily.js
+```
 
 ### **Run a Sunday scenario**
-
+```bash
 node mainSunday.js
+```
 
 ## **Report**
 
